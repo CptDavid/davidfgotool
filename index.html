@@ -3,161 +3,289 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FGO 日服從者育成與規劃面板</title>
-  <!-- Tailwind CSS -->
+  <title>FGO 日服從者育成與規劃控制台</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Vue 3 CDN -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <style>
     [v-cloak] { display: none; }
-    .bg-card-gradient { background: linear-gradient(135deg, rgba(30,41,59,0.9), rgba(15,23,42,0.95)); }
+    .bg-card-gradient { background: linear-gradient(135deg, rgba(30,41,59,0.95), rgba(15,23,42,0.98)); }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen p-4 md:p-8 font-sans">
+<body class="bg-slate-950 text-slate-100 min-h-screen p-3 md:p-8 font-sans">
   <div id="app" v-cloak class="max-w-7xl mx-auto space-y-6">
 
-    <!-- 頁頭與統計看板 -->
-    <header class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-6">
+    <!-- 頁頭與頂部列 -->
+    <header class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-5">
       <div>
         <h1 class="text-2xl md:text-3xl font-bold text-amber-400 flex items-center gap-2">
-          <span>⚔️</span> FGO 從者育成與規劃面板
+          <span>⚔️</span> FGO 從者育成管理系統
         </h1>
-        <p class="text-xs text-slate-400 mt-1">方便人眼檢視與 AI 分析讀取的資料控制台</p>
+        <p class="text-xs text-slate-400 mt-1">人機共讀 (AI-Friendly) ｜ 支持即時技能檢視與網頁後台更新</p>
       </div>
 
-      <!-- 統計數據 -->
-      <div class="grid grid-cols-3 gap-3 text-center">
-        <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 min-w-[90px]">
-          <div class="text-xs text-slate-400">總從者數</div>
-          <div class="text-xl font-extrabold text-amber-400">{{ stats.total }}</div>
-        </div>
-        <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 min-w-[90px]">
-          <div class="text-xs text-slate-400">五星 SSR</div>
-          <div class="text-xl font-extrabold text-yellow-500">{{ stats.ssr }}</div>
-        </div>
-        <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 min-w-[90px]">
-          <div class="text-xs text-slate-400">3滿技 (10/10/10)</div>
-          <div class="text-xl font-extrabold text-emerald-400">{{ stats.maxSkills }}</div>
-        </div>
+      <div class="flex items-center gap-3">
+        <!-- 後台模式開關 -->
+        <button @click="editMode = !editMode" 
+                :class="editMode ? 'bg-amber-500 text-slate-950 font-bold' : 'bg-slate-800 text-slate-300 border border-slate-700'"
+                class="px-3.5 py-2 rounded-lg text-xs transition flex items-center gap-1.5 shadow">
+          <span>{{ editMode ? '⚙️ 退出管理模式' : '🛠️ 開啟後台編輯' }}</span>
+        </button>
+
+        <button v-if="editMode" @click="openAddModal" 
+                class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
+          ➕ 新增從者
+        </button>
+
+        <button v-if="editMode" @click="saveAndExport" 
+                class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
+          💾 匯出 JSON
+        </button>
+
+        <button v-if="editMode" @click="openGitHubSettings" 
+                class="bg-purple-600 hover:bg-purple-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
+          🚀 GitHub 直連同步
+        </button>
       </div>
     </header>
 
-    <!-- 控制與篩選列 -->
-    <section class="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-4">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
-        <!-- 搜尋列 -->
-        <div class="md:col-span-1">
-          <label class="block text-xs font-medium text-slate-400 mb-1">搜尋從者</label>
-          <input type="text" v-model="searchQuery" placeholder="搜尋名稱或 ID..." 
-                 class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-amber-500">
-        </div>
-
-        <!-- 職階篩選 -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">職階 (Class)</label>
-          <select v-model="selectedClass" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-amber-500">
-            <option value="All">全部職階</option>
-            <option v-for="cls in availableClasses" :key="cls" :value="cls">{{ cls }}</option>
-          </select>
-        </div>
-
-        <!-- 星級篩選 -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">星級 (Rarity)</label>
-          <select v-model="selectedRarity" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-amber-500">
-            <option value="All">全部星級</option>
-            <option value="5">5★ SSR</option>
-            <option value="4">4★ SR</option>
-            <option value="3">3★ R</option>
-            <option value="2">2★ UC</option>
-            <option value="1">1★ C</option>
-          </select>
-        </div>
-
-        <!-- 優先級篩選 -->
-        <div>
-          <label class="block text-xs font-medium text-slate-400 mb-1">育成優先級</label>
-          <select v-model="selectedPriority" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-amber-500">
-            <option value="All">全部等級</option>
-            <option value="S">Priority S (最高)</option>
-            <option value="A">Priority A (高)</option>
-            <option value="B">Priority B (中)</option>
-            <option value="C">Priority C (次要)</option>
-          </select>
-        </div>
+    <!-- 統計數據看板 -->
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-3">
+        <div class="text-xs text-slate-400">總持有從者</div>
+        <div class="text-xl font-extrabold text-amber-400">{{ stats.total }}</div>
       </div>
-
-      <!-- 快捷資料載入選項 -->
-      <div class="flex items-center justify-between text-xs text-slate-400 border-t border-slate-800 pt-3">
-        <span>顯示數量：<strong class="text-slate-200">{{ filteredServants.length }}</strong> / {{ servants.length }}</span>
-        <label class="cursor-pointer text-amber-400 hover:text-amber-300 underline flex items-center gap-1">
-          <span>📁 上傳自訂 JSON/CSV</span>
-          <input type="file" @change="handleFileUpload" accept=".json,.csv" class="hidden">
-        </label>
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-3">
+        <div class="text-xs text-slate-400">五星 SSR</div>
+        <div class="text-xl font-extrabold text-yellow-500">{{ stats.ssr }}</div>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-3">
+        <div class="text-xs text-slate-400">3滿技 (10/10/10)</div>
+        <div class="text-xl font-extrabold text-emerald-400">{{ stats.maxSkills }}</div>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-3">
+        <div class="text-xs text-slate-400">優先級 S / A</div>
+        <div class="text-xl font-extrabold text-rose-400">{{ stats.highPriority }}</div>
       </div>
     </section>
 
-    <!-- 從者卡片牆 -->
+    <!-- 篩選列 -->
+    <section class="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-3">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+        <input type="text" v-model="searchQuery" placeholder="搜尋名稱或 ID..." 
+               class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-amber-500">
+        
+        <select v-model="selectedClass" class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-amber-500">
+          <option value="All">全部職階</option>
+          <option v-for="cls in availableClasses" :key="cls" :value="cls">{{ cls }}</option>
+        </select>
+
+        <select v-model="selectedRarity" class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-amber-500">
+          <option value="All">全部星級</option>
+          <option value="5">5★ SSR</option>
+          <option value="4">4★ SR</option>
+          <option value="3">3★ R</option>
+        </select>
+
+        <select v-model="selectedPriority" class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-amber-500">
+          <option value="All">全部優先級</option>
+          <option value="S">Priority S</option>
+          <option value="A">Priority A</option>
+          <option value="B">Priority B</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- 從者卡片區域 -->
     <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       <div v-for="servant in filteredServants" :key="servant.id" 
-           class="bg-card-gradient border border-slate-800 hover:border-amber-500/50 rounded-xl p-4 flex flex-col justify-between transition-all duration-200 shadow-lg">
+           class="bg-card-gradient border border-slate-800 hover:border-amber-500/50 rounded-xl p-4 flex flex-col justify-between transition relative group shadow-lg">
         
-        <!-- 卡片頭部 -->
         <div>
-          <div class="flex items-center justify-between mb-2">
-            <span class="text-xs px-2 py-0.5 rounded font-semibold" :class="getClassBadgeClass(servant.class)">
-              {{ servant.class }}
-            </span>
-            <span class="text-xs text-amber-400 font-bold tracking-wider">
-              {{ '★'.repeat(Number(servant.rarity)) }}
-            </span>
-          </div>
-
-          <div class="flex justify-between items-start mb-1">
-            <h3 class="text-base font-bold text-slate-100 truncate pr-2" :title="servant.name">
-              {{ servant.name }}
-            </h3>
-            <span class="text-[10px] text-slate-500 font-mono">No.{{ servant.id }}</span>
-          </div>
-
-          <!-- 角色等級 & 寶具資訊 -->
-          <div class="flex items-center gap-2 text-xs text-slate-300 mb-3">
-            <span class="bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700">
-              Lv. <strong class="text-white">{{ servant.level }}</strong>
-            </span>
-            <span class="bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700 flex items-center gap-1">
-              寶具 <strong class="text-amber-300">NP{{ servant.np_level }}</strong>
-              <span class="text-[10px] px-1 rounded" :class="getNpColorClass(servant.np_color)">
-                {{ servant.np_color }}
+          <!-- 卡片頂部：頭像 + 資訊 -->
+          <div class="flex items-start gap-3 mb-3">
+            <!-- 從者頭像 -->
+            <div class="relative w-14 h-14 rounded-lg overflow-hidden border border-slate-700 shrink-0 bg-slate-950">
+              <img :src="servant.avatar || `https://static.atlasacademy.io/JP/Faces/f_${servant.id}0.png`" 
+                   :alt="servant.name" 
+                   @error="handleImgError"
+                   class="w-full h-full object-cover">
+              <span class="absolute bottom-0 right-0 bg-slate-950/90 text-[10px] px-1 text-amber-300 font-mono">
+                NP{{ servant.np_level }}
               </span>
-            </span>
+            </div>
+
+            <!-- 名稱與職階星級 -->
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between mb-0.5">
+                <span class="text-[10px] px-1.5 py-0.5 rounded font-semibold" :class="getClassBadgeClass(servant.class)">
+                  {{ servant.class }}
+                </span>
+                <span class="text-xs text-amber-400 font-bold">
+                  {{ '★'.repeat(Number(servant.rarity)) }}
+                </span>
+              </div>
+              <h3 class="text-sm font-bold text-slate-100 truncate" :title="servant.name">
+                {{ servant.name }}
+              </h3>
+              <div class="text-[11px] text-slate-400 mt-1 flex items-center justify-between">
+                <span>Lv. <strong class="text-white">{{ servant.level }}</strong></span>
+                <span class="text-[10px] font-mono text-slate-500">No.{{ servant.id }}</span>
+              </div>
+            </div>
           </div>
 
-          <!-- 技能等級 (10/10/10) -->
-          <div class="bg-slate-950/80 rounded-lg p-2.5 mb-3 border border-slate-800/80">
-            <div class="text-[10px] text-slate-400 mb-1 font-medium">技能等級 (Skill Levels)</div>
-            <div class="flex items-center justify-between gap-1 font-mono">
-              <div v-for="(skill, idx) in servant.skills" :key="idx" 
-                   class="flex-1 text-center py-1 rounded text-xs font-bold border"
-                   :class="skill === 10 ? 'bg-amber-500/10 text-amber-300 border-amber-500/40' : (skill >= 6 ? 'bg-cyan-500/10 text-cyan-300 border-cyan-500/30' : 'bg-slate-800 text-slate-400 border-slate-700')">
-                {{ skill }}
+          <!-- 3 招技能區 (含圖標與描述彈窗) -->
+          <div class="bg-slate-950/80 rounded-lg p-2 mb-3 border border-slate-800/80">
+            <div class="text-[10px] text-slate-400 mb-1.5 flex justify-between items-center">
+              <span>保有技能 (Skill Levels)</span>
+              <span class="text-[9px] text-amber-500/80">點擊圖標看詳細說明</span>
+            </div>
+
+            <div class="grid grid-cols-3 gap-1.5">
+              <div v-for="(lvl, idx) in servant.skills" :key="idx"
+                   @click="showSkillDetail(servant, idx)"
+                   class="cursor-pointer bg-slate-900 hover:bg-slate-800 p-1.5 rounded border flex flex-col items-center transition"
+                   :class="lvl === 10 ? 'border-amber-500/50 text-amber-300' : 'border-slate-800 text-slate-300'">
+                <!-- 技能圖標 -->
+                <img :src="getSkillIcon(servant, idx)" class="w-6 h-6 mb-1 object-contain">
+                <span class="text-xs font-mono font-bold">Lv.{{ lvl }}</span>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- 卡片底部：優先級與目標 -->
-        <div class="border-t border-slate-800/80 pt-2.5 flex items-center justify-between text-xs">
-          <span class="px-2 py-0.5 rounded font-bold text-[11px]" :class="getPriorityClass(servant.priority)">
-            Priority {{ servant.priority }}
-          </span>
-          <span class="text-slate-400 text-[11px] truncate max-w-[150px]" :title="servant.target">
-            {{ servant.target || '無紀錄' }}
-          </span>
+        <!-- 卡片底部：目標 & 後台快捷按鈕 -->
+        <div>
+          <div class="border-t border-slate-800/80 pt-2 flex items-center justify-between text-xs">
+            <span class="px-2 py-0.5 rounded font-bold text-[10px]" :class="getPriorityClass(servant.priority)">
+              Priority {{ servant.priority }}
+            </span>
+            <span class="text-slate-400 text-[11px] truncate max-w-[130px]" :title="servant.target">
+              {{ servant.target || '目標：10/10/10' }}
+            </span>
+          </div>
+
+          <!-- 管理模式專用快捷微調按鈕 -->
+          <div v-if="editMode" class="mt-3 pt-2 border-t border-amber-500/20 flex items-center justify-between gap-1 text-[11px]">
+            <button @click="quickLevelUp(servant)" class="bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded text-slate-200">
+              Lv+1
+            </button>
+            <button @click="quickNpUp(servant)" class="bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded text-amber-300">
+              寶具+1
+            </button>
+            <button @click="openEditModal(servant)" class="bg-amber-600 hover:bg-amber-500 text-white font-bold px-2.5 py-1 rounded">
+              ✏️ 編輯全貌
+            </button>
+          </div>
         </div>
 
       </div>
     </main>
+
+    <!-- 彈窗 1：技能詳細描述 Popover -->
+    <div v-if="activeSkillModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+      <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-md w-full space-y-4 shadow-2xl">
+        <div class="flex items-center gap-3 border-b border-slate-800 pb-3">
+          <img :src="activeSkillModal.icon" class="w-10 h-10 object-contain">
+          <div>
+            <h4 class="font-bold text-amber-400 text-base">{{ activeSkillModal.name }}</h4>
+            <span class="text-xs text-slate-400">從者：{{ activeSkillModal.servantName }} (Skill {{ activeSkillModal.idx + 1 }})</span>
+          </div>
+        </div>
+        <p class="text-sm text-slate-200 leading-relaxed bg-slate-950 p-3 rounded-lg border border-slate-800">
+          {{ activeSkillModal.desc || '暫無詳細技能描述。可在管理模式中自由補充說明。' }}
+        </p>
+        <button @click="activeSkillModal = null" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 py-2 rounded-lg text-sm font-semibold">
+          關閉
+        </button>
+      </div>
+    </div>
+
+    <!-- 彈窗 2：編輯從者 Modal -->
+    <div v-if="editingServant" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+      <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-lg w-full space-y-4 max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl">
+        <h3 class="text-lg font-bold text-amber-400 border-b border-slate-800 pb-2">
+          ✏️ 編輯從者：{{ editingServant.name }}
+        </h3>
+
+        <div class="grid grid-cols-2 gap-3 text-xs">
+          <div>
+            <label class="text-slate-400 block mb-1">從者名稱</label>
+            <input type="text" v-model="editingServant.name" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+          </div>
+          <div>
+            <label class="text-slate-400 block mb-1">角色等級 (Level)</label>
+            <input type="number" v-model.number="editingServant.level" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+          </div>
+          <div>
+            <label class="text-slate-400 block mb-1">寶具等級 (1-5)</label>
+            <input type="number" min="1" max="5" v-model.number="editingServant.np_level" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+          </div>
+          <div>
+            <label class="text-slate-400 block mb-1">育成優先級</label>
+            <select v-model="editingServant.priority" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+              <option value="S">S (最高)</option>
+              <option value="A">A (高)</option>
+              <option value="B">B (中)</option>
+              <option value="C">C (低)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 技能等級 & 描述編輯 -->
+        <div class="space-y-3 border-t border-slate-800 pt-3">
+          <h4 class="text-xs font-bold text-slate-300">技能設定 (Skill 1~3)</h4>
+          <div v-for="(skill, i) in 3" :key="i" class="bg-slate-950 p-2.5 rounded border border-slate-800 space-y-2">
+            <div class="flex items-center justify-between text-xs">
+              <span class="text-amber-400 font-bold">技能 {{ i+1 }}</span>
+              <span>等級: <input type="number" min="1" max="10" v-model.number="editingServant.skills[i]" class="w-16 bg-slate-900 border border-slate-700 rounded text-center text-white"></span>
+            </div>
+            <input type="text" v-model="editingServant.skills_detail[i].name" placeholder="技能名稱" class="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-white">
+            <textarea v-model="editingServant.skills_detail[i].desc" rows="2" placeholder="技能詳細效果描述..." class="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-white"></textarea>
+          </div>
+        </div>
+
+        <div>
+          <label class="text-xs text-slate-400 block mb-1">練角目標與備註</label>
+          <input type="text" v-model="editingServant.target" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-xs text-white">
+        </div>
+
+        <div class="flex justify-end gap-2 border-t border-slate-800 pt-3">
+          <button @click="editingServant = null" class="px-4 py-1.5 bg-slate-800 text-slate-300 rounded text-xs">取消</button>
+          <button @click="saveServantEdit" class="px-4 py-1.5 bg-amber-600 text-white rounded text-xs font-bold">儲存變更</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 彈窗 3：GitHub Direct Commit 設定 -->
+    <div v-if="showGitHubModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+      <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-md w-full space-y-4 shadow-2xl">
+        <h3 class="text-lg font-bold text-purple-400">🚀 GitHub API 直線同步設定</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          輸入你的 GitHub Personal Access Token (PAT)，之後在網頁修改數據後，點擊同步就能直接 commit 並觸發部署，免電腦操作！
+        </p>
+
+        <div class="space-y-3 text-xs">
+          <div>
+            <label class="block text-slate-300 mb-1">GitHub Repo 格式 (owner/repo)</label>
+            <input type="text" v-model="ghRepo" placeholder="cptdavid/fgo-roster" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+          </div>
+          <div>
+            <label class="block text-slate-300 mb-1">Personal Access Token (PAT)</label>
+            <input type="password" v-model="ghToken" placeholder="ghp_xxxxxxxxxxxx" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-slate-800 pt-3">
+          <button @click="showGitHubModal = false" class="px-3 py-1.5 bg-slate-800 text-slate-300 rounded text-xs">取消</button>
+          <button @click="syncToGitHub" class="px-4 py-1.5 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded text-xs">
+            🚀 立即同步至 GitHub
+          </button>
+        </div>
+      </div>
+    </div>
 
   </div>
 
@@ -167,43 +295,58 @@
     createApp({
       setup() {
         const servants = ref([]);
+        const editMode = ref(false);
         const searchQuery = ref('');
         const selectedClass = ref('All');
         const selectedRarity = ref('All');
         const selectedPriority = ref('All');
 
-        // 自動載入 servants.json
+        const activeSkillModal = ref(null);
+        const editingServant = ref(null);
+        const showGitHubModal = ref(false);
+
+        const ghRepo = ref(localStorage.getItem('gh_repo') || 'cptdavid/fgo-roster');
+        const ghToken = ref(localStorage.getItem('gh_token') || '');
+
         onMounted(async () => {
           try {
             const res = await fetch('servants.json');
             if (res.ok) {
-              servants.value = await res.json();
+              const data = await res.json();
+              servants.value = ensureDataStructure(data);
             }
           } catch (e) {
-            console.warn("無法自動載入 servants.json，請透過按鈕上傳。");
+            console.warn("自動載入失敗，等待上傳");
           }
         });
 
-        // 統計數字
+        // 確保結構完整
+        const ensureDataStructure = (list) => {
+          return list.map(s => {
+            if (!s.skills_detail || s.skills_detail.length < 3) {
+              s.skills_detail = [
+                { name: '技能 1', icon: 'https://static.atlasacademy.io/JP/Skills/s_400000.png', desc: '充能 / 攻防提升' },
+                { name: '技能 2', icon: 'https://static.atlasacademy.io/JP/Skills/s_400000.png', desc: '色卡性能 / 寶具威力提升' },
+                { name: '技能 3', icon: 'https://static.atlasacademy.io/JP/Skills/s_400000.png', desc: '生存 / 特攻效果' }
+              ];
+            }
+            return s;
+          });
+        };
+
         const stats = computed(() => {
           const total = servants.value.length;
           const ssr = servants.value.filter(s => String(s.rarity) === '5').length;
           const maxSkills = servants.value.filter(s => s.skills && s.skills.every(lvl => lvl === 10)).length;
-          return { total, ssr, maxSkills };
+          const highPriority = servants.value.filter(s => s.priority === 'S' || s.priority === 'A').length;
+          return { total, ssr, maxSkills, highPriority };
         });
 
-        // 可選職階選單
-        const availableClasses = computed(() => {
-          const set = new Set(servants.value.map(s => s.class));
-          return Array.from(set);
-        });
+        const availableClasses = computed(() => Array.from(new Set(servants.value.map(s => s.class))));
 
-        // 篩選後結果
         const filteredServants = computed(() => {
           return servants.value.filter(s => {
-            const matchName = !searchQuery.value || 
-                              s.name.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
-                              String(s.id).includes(searchQuery.value);
+            const matchName = !searchQuery.value || s.name.toLowerCase().includes(searchQuery.value.toLowerCase()) || String(s.id).includes(searchQuery.value);
             const matchClass = selectedClass.value === 'All' || s.class === selectedClass.value;
             const matchRarity = selectedRarity.value === 'All' || String(s.rarity) === selectedRarity.value;
             const matchPriority = selectedPriority.value === 'All' || s.priority === selectedPriority.value;
@@ -211,55 +354,107 @@
           });
         });
 
-        // 樣式輔助函式
-        const getClassBadgeClass = (cls) => {
-          const map = {
-            Saber: 'bg-blue-900/80 text-blue-200 border border-blue-700',
-            Archer: 'bg-red-900/80 text-red-200 border border-red-700',
-            Lancer: 'bg-amber-900/80 text-amber-200 border border-amber-700',
-            Rider: 'bg-fuchsia-900/80 text-fuchsia-200 border border-fuchsia-700',
-            Caster: 'bg-cyan-900/80 text-cyan-200 border border-cyan-700',
-            Assassin: 'bg-emerald-900/80 text-emerald-200 border border-emerald-700',
-            Berserker: 'bg-rose-950 text-rose-300 border border-rose-800'
+        const showSkillDetail = (servant, idx) => {
+          const detail = servant.skills_detail?.[idx] || {};
+          activeSkillModal.value = {
+            servantName: servant.name,
+            idx,
+            name: detail.name || `技能 ${idx + 1}`,
+            icon: detail.icon || 'https://static.atlasacademy.io/JP/Skills/s_400000.png',
+            desc: detail.desc
           };
-          return map[cls] || 'bg-indigo-900/80 text-indigo-200 border border-indigo-700';
         };
 
-        const getNpColorClass = (color) => {
-          if (color === '紅') return 'bg-red-600 text-white';
-          if (color === '藍') return 'bg-blue-600 text-white';
-          if (color === '綠') return 'bg-emerald-600 text-white';
-          return 'bg-slate-700 text-slate-300';
+        const getSkillIcon = (servant, idx) => {
+          return servant.skills_detail?.[idx]?.icon || 'https://static.atlasacademy.io/JP/Skills/s_400000.png';
         };
 
-        const getPriorityClass = (priority) => {
-          if (priority === 'S') return 'bg-rose-500/20 text-rose-300 border border-rose-500/40';
-          if (priority === 'A') return 'bg-amber-500/20 text-amber-300 border border-amber-500/40';
-          if (priority === 'B') return 'bg-blue-500/20 text-blue-300 border border-blue-500/40';
-          return 'bg-slate-800 text-slate-400 border border-slate-700';
+        const openEditModal = (servant) => {
+          editingServant.value = JSON.parse(JSON.stringify(servant));
         };
 
-        // 檔案讀取處理器
-        const handleFileUpload = (e) => {
-          const file = e.target.files[0];
-          if (!file) return;
-          const reader = new FileReader();
-          reader.onload = (evt) => {
-            try {
-              if (file.name.endsWith('.json')) {
-                servants.value = JSON.parse(evt.target.result);
-              }
-            } catch (err) {
-              alert('檔案解析失敗，請確認 JSON 格式正確。');
+        const saveServantEdit = () => {
+          const idx = servants.value.findIndex(s => s.id === editingServant.value.id);
+          if (idx !== -1) {
+            servants.value[idx] = editingServant.value;
+          }
+          editingServant.value = null;
+        };
+
+        const quickLevelUp = (servant) => { if (servant.level < 120) servant.level++; };
+        const quickNpUp = (servant) => { if (servant.np_level < 5) servant.np_level++; };
+
+        const saveAndExport = () => {
+          const blob = new Blob([JSON.stringify(servants.value, null, 2)], { type: 'application/json' });
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'servants.json';
+          a.click();
+        };
+
+        const openGitHubSettings = () => { showGitHubModal.value = true; };
+
+        const syncToGitHub = async () => {
+          if (!ghToken.value || !ghRepo.value) { alert('請填寫 Repo 與 Token！'); return; }
+          localStorage.setItem('gh_repo', ghRepo.value);
+          localStorage.setItem('gh_token', ghToken.value);
+
+          try {
+            const path = 'servants.json';
+            const getUrl = `https://api.github.com/repos/${ghRepo.value}/contents/${path}`;
+            const getRes = await fetch(getUrl, { headers: { Authorization: `token ${ghToken.value}` } });
+            let sha = '';
+            if (getRes.ok) {
+              const fileData = await getRes.json();
+              sha = fileData.sha;
             }
-          };
-          reader.readAsText(file);
+
+            const content = btoa(unescape(encodeURIComponent(JSON.stringify(servants.value, null, 2))));
+            const putRes = await fetch(getUrl, {
+              method: 'PUT',
+              headers: {
+                Authorization: `token ${ghToken.value}`,
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({
+                message: 'Update servants.json via Web Admin',
+                content: content,
+                sha: sha || undefined
+              })
+            });
+
+            if (putRes.ok) {
+              alert('🎉 成功 Commit 並觸發 GitHub Pages 部署！幾秒鐘後生效。');
+              showGitHubModal.value = false;
+            } else {
+              alert('同步失敗，請檢查 Token 權限。');
+            }
+          } catch (e) {
+            alert('發生錯誤：' + e.message);
+          }
         };
+
+        const getClassBadgeClass = (cls) => ({
+          Saber: 'bg-blue-900/80 text-blue-200', Archer: 'bg-red-900/80 text-red-200',
+          Lancer: 'bg-amber-900/80 text-amber-200', Rider: 'bg-fuchsia-900/80 text-fuchsia-200',
+          Caster: 'bg-cyan-900/80 text-cyan-200', Assassin: 'bg-emerald-900/80 text-emerald-200',
+          Berserker: 'bg-rose-950 text-rose-300'
+        }[cls] || 'bg-indigo-900/80 text-indigo-200');
+
+        const getPriorityClass = (priority) => ({
+          S: 'bg-rose-500/20 text-rose-300 border border-rose-500/40',
+          A: 'bg-amber-500/20 text-amber-300 border border-amber-500/40',
+          B: 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+        }[priority] || 'bg-slate-800 text-slate-400');
+
+        const handleImgError = (e) => { e.target.src = 'https://via.placeholder.com/64?text=FGO'; };
 
         return {
-          servants, searchQuery, selectedClass, selectedRarity, selectedPriority,
+          servants, editMode, searchQuery, selectedClass, selectedRarity, selectedPriority,
+          activeSkillModal, editingServant, showGitHubModal, ghRepo, ghToken,
           stats, availableClasses, filteredServants,
-          getClassBadgeClass, getNpColorClass, getPriorityClass, handleFileUpload
+          showSkillDetail, getSkillIcon, openEditModal, saveServantEdit, quickLevelUp, quickNpUp,
+          saveAndExport, openGitHubSettings, syncToGitHub, getClassBadgeClass, getPriorityClass, handleImgError
         };
       }
     }).mount('#app');
