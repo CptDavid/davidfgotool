@@ -14,7 +14,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2840.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 2,
@@ -31,7 +49,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_20.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 309,
@@ -48,7 +84,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_3090.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 12,
@@ -65,7 +119,25 @@
       4
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_120.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 129,
@@ -82,7 +154,25 @@
       5
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1290.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.5)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 216,
@@ -99,7 +189,25 @@
       6
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2160.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 85,
@@ -116,7 +224,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_850.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 119,
@@ -133,7 +259,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1190.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 143,
@@ -150,7 +294,25 @@
       6
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1430.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 206,
@@ -167,7 +329,25 @@
       10
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2060.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 37,
@@ -184,7 +364,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_370.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 62,
@@ -201,7 +399,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_620.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 150,
@@ -218,7 +434,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1500.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 215,
@@ -235,7 +469,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2150.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 75,
@@ -252,7 +504,25 @@
       1
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_750.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 59,
@@ -269,7 +539,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_590.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 229,
@@ -286,7 +574,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2290.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 305,
@@ -303,7 +609,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_3050.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 96,
@@ -320,7 +644,25 @@
       1
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_960.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.5)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 106,
@@ -337,7 +679,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1060.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 268,
@@ -354,7 +714,25 @@
       10
     ],
     "priority": "S",
-    "target": "已完成三滿技"
+    "target": "已完成三滿技",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2680.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 163,
@@ -371,7 +749,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1630.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 209,
@@ -388,7 +784,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2090.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 351,
@@ -405,7 +819,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_3510.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 142,
@@ -422,7 +854,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1420.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 241,
@@ -439,7 +889,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2410.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 237,
@@ -456,7 +924,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2370.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 155,
@@ -473,7 +959,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1550.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 195,
@@ -490,7 +994,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1950.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 8,
@@ -507,7 +1029,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_80.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 76,
@@ -524,7 +1064,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_760.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 84,
@@ -541,7 +1099,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_840.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 212,
@@ -558,7 +1134,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2120.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 70,
@@ -575,7 +1169,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_700.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 205,
@@ -592,7 +1204,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2050.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 274,
@@ -609,7 +1239,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2740.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 189,
@@ -626,7 +1274,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1890.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 235,
@@ -643,7 +1309,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2350.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 161,
@@ -660,7 +1344,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1610.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 226,
@@ -677,7 +1379,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2260.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 265,
@@ -694,7 +1414,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2650.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 303,
@@ -711,7 +1449,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_3030.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 238,
@@ -728,7 +1484,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2380.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 244,
@@ -745,7 +1519,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2440.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 3,
@@ -762,7 +1554,25 @@
       4
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_30.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 264,
@@ -779,7 +1589,25 @@
       6
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2640.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 121,
@@ -796,7 +1624,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1210.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 5,
@@ -813,7 +1659,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_50.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 187,
@@ -830,7 +1694,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1870.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 123,
@@ -847,7 +1729,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1230.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 165,
@@ -864,7 +1764,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1650.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 101,
@@ -881,7 +1799,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1010.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 245,
@@ -898,7 +1834,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2450.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 221,
@@ -915,7 +1869,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2210.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 10,
@@ -932,7 +1904,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_100.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 4,
@@ -949,7 +1939,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_40.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 11,
@@ -966,7 +1974,25 @@
       6
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_110.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 197,
@@ -983,7 +2009,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1970.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 137,
@@ -1000,7 +2044,25 @@
       6
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1370.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 184,
@@ -1017,7 +2079,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1840.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 269,
@@ -1034,7 +2114,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2690.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 271,
@@ -1051,7 +2149,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2710.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 122,
@@ -1068,7 +2184,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1220.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 14,
@@ -1085,7 +2219,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_140.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 262,
@@ -1102,7 +2254,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2620.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 102,
@@ -1119,7 +2289,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1020.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 214,
@@ -1136,7 +2324,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2140.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 252,
@@ -1153,7 +2359,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2520.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 193,
@@ -1170,7 +2394,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1930.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 181,
@@ -1187,7 +2429,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1810.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 146,
@@ -1204,7 +2464,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1460.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 140,
@@ -1221,7 +2499,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1400.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 266,
@@ -1238,7 +2534,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2660.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 228,
@@ -1255,7 +2569,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2280.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 217,
@@ -1272,7 +2604,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2170.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 87,
@@ -1289,7 +2639,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_870.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 18,
@@ -1306,7 +2674,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_180.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 183,
@@ -1323,7 +2709,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1830.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 115,
@@ -1340,7 +2744,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1150.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 211,
@@ -1357,7 +2779,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2110.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 73,
@@ -1374,7 +2814,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_730.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 94,
@@ -1391,7 +2849,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_940.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 66,
@@ -1408,7 +2884,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_660.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 263,
@@ -1425,7 +2919,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2630.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 29,
@@ -1442,7 +2954,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_290.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 30,
@@ -1459,7 +2989,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_300.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 315,
@@ -1476,7 +3024,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_3150.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 145,
@@ -1493,7 +3059,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1450.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 225,
@@ -1510,7 +3094,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2250.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 120,
@@ -1527,7 +3129,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1200.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 74,
@@ -1544,7 +3164,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_740.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 111,
@@ -1561,7 +3199,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1110.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 67,
@@ -1578,7 +3234,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_670.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 130,
@@ -1595,7 +3269,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1300.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 192,
@@ -1612,7 +3304,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1920.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 243,
@@ -1629,7 +3339,25 @@
       6
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2430.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 267,
@@ -1646,7 +3374,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2670.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 170,
@@ -1663,7 +3409,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1700.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 109,
@@ -1680,7 +3444,25 @@
       6
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1090.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.4)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 218,
@@ -1697,7 +3479,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2180.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 185,
@@ -1714,7 +3514,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1850.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 304,
@@ -1731,7 +3549,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_3040.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 159,
@@ -1748,7 +3584,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1590.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 46,
@@ -1765,7 +3619,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_460.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 82,
@@ -1782,7 +3654,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_820.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 47,
@@ -1799,7 +3689,25 @@
       7
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_470.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.8)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.7)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 219,
@@ -1816,7 +3724,25 @@
       10
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2190.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 48,
@@ -1833,7 +3759,25 @@
       10
     ],
     "priority": "A",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_480.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.6)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.10)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 171,
@@ -1850,7 +3794,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1710.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 89,
@@ -1867,7 +3829,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_890.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 116,
@@ -1884,7 +3864,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1160.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 58,
@@ -1901,7 +3899,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_580.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 202,
@@ -1918,7 +3934,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2020.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 178,
@@ -1935,7 +3969,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1780.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 242,
@@ -1952,7 +4004,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2420.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 135,
@@ -1969,7 +4039,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1350.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 147,
@@ -1986,7 +4074,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1470.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 158,
@@ -2003,7 +4109,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1580.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 166,
@@ -2020,7 +4144,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1660.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 164,
@@ -2037,7 +4179,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_1640.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 1,
@@ -2054,7 +4214,25 @@
       9
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_10.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.9)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.9)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.9)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 288,
@@ -2071,7 +4249,25 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2880.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   },
   {
     "id": 253,
@@ -2088,6 +4284,24 @@
       1
     ],
     "priority": "B",
-    "target": "目標 10/10/10"
+    "target": "目標 10/10/10",
+    "avatar": "https://static.atlasacademy.io/JP/Faces/f_2530.png",
+    "skills_detail": [
+      {
+        "name": "技能 1 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "己方單體 / 全體效果或自充技能"
+      },
+      {
+        "name": "技能 2 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "色卡性能提升 / 攻擊力提升"
+      },
+      {
+        "name": "技能 3 (Lv.1)",
+        "icon": "https://static.atlasacademy.io/JP/Skills/s_400000.png",
+        "desc": "生存 / 寶具威力提升 / 特攻效果"
+      }
+    ]
   }
 ]
