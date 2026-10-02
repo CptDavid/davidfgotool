@@ -1,0 +1,2093 @@
+[
+  {
+    "id": 284,
+    "name": "阿爾托莉亞・Caster",
+    "rarity": "5",
+    "class": "Caster",
+    "level": 102,
+    "np_level": 3,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 2,
+    "name": "阿爾托莉亞・潘德拉剛",
+    "rarity": "5",
+    "class": "Saber",
+    "level": 100,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 309,
+    "name": "摩根",
+    "rarity": "5",
+    "class": "Berserker",
+    "level": 100,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 12,
+    "name": "吉爾伽美什",
+    "rarity": "5",
+    "class": "Archer",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      4,
+      4,
+      4
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 129,
+    "name": "阿爾托莉亞・潘德拉剛〔Archer〕",
+    "rarity": "5",
+    "class": "Archer",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      5
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 216,
+    "name": "貞德〔Archer〕",
+    "rarity": "5",
+    "class": "Archer",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      6
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 85,
+    "name": "迦爾納",
+    "rarity": "5",
+    "class": "Lancer",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      6,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 119,
+    "name": "阿爾托莉亞・潘德拉剛〔Lancer〕",
+    "rarity": "5",
+    "class": "Lancer",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 143,
+    "name": "恩奇都",
+    "rarity": "5",
+    "class": "Lancer",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      6,
+      6,
+      6
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 206,
+    "name": "阿基里斯",
+    "rarity": "5",
+    "class": "Rider",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      10,
+      1,
+      10
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 37,
+    "name": "諸葛孔明〔埃爾梅羅 II 世〕",
+    "rarity": "5",
+    "class": "Caster",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 62,
+    "name": "玉藻前",
+    "rarity": "5",
+    "class": "Caster",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 150,
+    "name": "梅林",
+    "rarity": "5",
+    "class": "Caster",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "輔助寶具",
+    "np_color": "紅",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 215,
+    "name": "斯卡薩哈＝斯卡蒂",
+    "rarity": "5",
+    "class": "Caster",
+    "level": 90,
+    "np_level": 3,
+    "np_type": "輔助寶具",
+    "np_color": "綠",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 75,
+    "name": "開膛手傑克",
+    "rarity": "5",
+    "class": "Assassin",
+    "level": 90,
+    "np_level": 3,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      10,
+      1,
+      1
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 59,
+    "name": "貞德",
+    "rarity": "5",
+    "class": "Ruler",
+    "level": 90,
+    "np_level": 3,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 229,
+    "name": "始皇帝",
+    "rarity": "5",
+    "class": "Ruler",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 305,
+    "name": "埃莫〔卡蓮〕",
+    "rarity": "5",
+    "class": "Ruler",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 96,
+    "name": "嚴窟王",
+    "rarity": "5",
+    "class": "Avenger",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      5,
+      10,
+      1
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 106,
+    "name": "貞德〔Alter〕",
+    "rarity": "5",
+    "class": "Avenger",
+    "level": 90,
+    "np_level": 3,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 268,
+    "name": "太空伊絲塔",
+    "rarity": "5",
+    "class": "Avenger",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      10,
+      10,
+      10
+    ],
+    "priority": "S",
+    "target": "已完成三滿技"
+  },
+  {
+    "id": 163,
+    "name": "Meltryllis",
+    "rarity": "5",
+    "class": "Alter Ego",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      6,
+      6,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 209,
+    "name": "沖田總司〔Alter〕",
+    "rarity": "5",
+    "class": "Alter Ego",
+    "level": 90,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 351,
+    "name": "Archetype：Earth",
+    "rarity": "5",
+    "class": "Moon Cancer",
+    "level": 90,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 142,
+    "name": "伊絲塔",
+    "rarity": "5",
+    "class": "Archer",
+    "level": 80,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 241,
+    "name": "司馬懿〔萊達絲〕",
+    "rarity": "5",
+    "class": "Rider",
+    "level": 80,
+    "np_level": 1,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 237,
+    "name": "紫式部",
+    "rarity": "5",
+    "class": "Caster",
+    "level": 80,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 155,
+    "name": "謎之女主角 X〔Alter〕",
+    "rarity": "5",
+    "class": "Berserker",
+    "level": 60,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 195,
+    "name": "艾比蓋兒・威廉斯",
+    "rarity": "5",
+    "class": "Foreigner",
+    "level": 50,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 8,
+    "name": "阿蒂拉",
+    "rarity": "5",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 76,
+    "name": "莫德雷德",
+    "rarity": "5",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 84,
+    "name": "阿周那",
+    "rarity": "5",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 212,
+    "name": "拿破崙",
+    "rarity": "5",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 70,
+    "name": "斯卡薩哈",
+    "rarity": "5",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 205,
+    "name": "伊凡雷帝",
+    "rarity": "5",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 274,
+    "name": "歐羅巴",
+    "rarity": "5",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 189,
+    "name": "刑部姬",
+    "rarity": "5",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "輔助寶具",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 235,
+    "name": "李書文〔Assassin〕",
+    "rarity": "5",
+    "class": "Assassin",
+    "level": 50,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 161,
+    "name": "土方歲三",
+    "rarity": "5",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 226,
+    "name": "項羽",
+    "rarity": "5",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 265,
+    "name": "阿爾托莉亞・潘德拉剛〔Ruler〕",
+    "rarity": "5",
+    "class": "Ruler",
+    "level": 50,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 303,
+    "name": "平景清",
+    "rarity": "5",
+    "class": "Avenger",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 238,
+    "name": "Kingprotea",
+    "rarity": "5",
+    "class": "Alter Ego",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 244,
+    "name": "吉娜可＝加里吉利",
+    "rarity": "5",
+    "class": "Moon Cancer",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 3,
+    "name": "阿爾托莉亞・潘德拉剛〔Alter〕",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 80,
+    "np_level": 3,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      4,
+      4,
+      4
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 264,
+    "name": "葛飾北齋〔Saber〕",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      6,
+      6,
+      6
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 121,
+    "name": "蘭斯洛特",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 70,
+    "np_level": 4,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 5,
+    "name": "尼祿・克勞狄烏斯",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 187,
+    "name": "柳生但馬守宗矩",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 123,
+    "name": "高文",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 165,
+    "name": "鈴鹿御前",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 101,
+    "name": "羅摩",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 245,
+    "name": "拉克什米・芭伊",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 221,
+    "name": "女王梅美",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 10,
+    "name": "騎士德翁",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 4,
+    "name": "阿爾托莉亞・潘德拉剛〔Lily〕",
+    "rarity": "4",
+    "class": "Saber",
+    "level": 54,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 11,
+    "name": "Emiya",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 85,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      6,
+      6
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 197,
+    "name": "阿爾提・the・San〔ta〕",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 40,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 137,
+    "name": "克洛伊・馮・愛因茲貝倫",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      6
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 184,
+    "name": "巴御前",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 269,
+    "name": "災星簡",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 271,
+    "name": "南丁格爾〔Santa〕",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 122,
+    "name": "崔斯坦",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 14,
+    "name": "阿塔蘭塔",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 262,
+    "name": "刑部姬〔Archer〕",
+    "rarity": "4",
+    "class": "Archer",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 102,
+    "name": "李書文",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 214,
+    "name": "瓦爾基麗",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 252,
+    "name": "長尾景虎",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 193,
+    "name": "哪吒",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 181,
+    "name": "源賴光〔Lancer〕",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 146,
+    "name": "美杜莎〔Lancer〕",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 140,
+    "name": "弗拉德三世〔EXTRA〕",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 266,
+    "name": "謎之Alterego・Λ",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 50,
+    "np_level": 3,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 228,
+    "name": "秦良玉",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "輔助寶具",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 217,
+    "name": "茨木童子〔Lancer〕",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 87,
+    "name": "芬恩・麥克庫爾",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 18,
+    "name": "伊莉莎白・巴托里",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 183,
+    "name": "帕爾瓦蒂",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 115,
+    "name": "坂田金時〔Rider〕",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 211,
+    "name": "坂本龍馬",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 73,
+    "name": "阿爾托莉亞・潘德拉剛〔聖誕Alter〕",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 94,
+    "name": "阿斯托爾福",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 80,
+    "np_level": 3,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 66,
+    "name": "安妮・伯妮＆瑪莉・瑞德",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 263,
+    "name": "卡米拉〔Rider〕",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 29,
+    "name": "瑪莉・安東尼",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 30,
+    "name": "瑪爾大",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 315,
+    "name": "哈貝特洛特（哈貝喵）",
+    "rarity": "4",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 145,
+    "name": "吉爾伽美什〔Caster〕",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 50,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 225,
+    "name": "酒吞童子〔Caster〕",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 74,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 120,
+    "name": "尼托克里絲",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 74,
+    "name": "童謠",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 111,
+    "name": "愛麗絲菲爾〔天之衣〕",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 50,
+    "np_level": 5,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 67,
+    "name": "美狄亞〔Lily〕",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 130,
+    "name": "瑪莉・安東尼〔Caster〕",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 192,
+    "name": "喀耳刻（姑姑）",
+    "rarity": "4",
+    "class": "Caster",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 243,
+    "name": "格蕾",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      6,
+      6,
+      6
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 267,
+    "name": "沖田總司〔Assassin〕",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 170,
+    "name": "武則天",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "輔助寶具",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 109,
+    "name": "Emiya〔Assassin〕",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 74,
+    "np_level": 2,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      4,
+      4,
+      6
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 218,
+    "name": "牛若丸〔Assassin〕",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 185,
+    "name": "望月千代女",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 304,
+    "name": "鬼一法眼",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 159,
+    "name": "燕青",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 46,
+    "name": "卡米拉",
+    "rarity": "4",
+    "class": "Assassin",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 82,
+    "name": "弗蘭肯斯坦",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 47,
+    "name": "赫拉克勒斯（B叔）",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      10,
+      8,
+      7
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 219,
+    "name": "貞德〔Alter〕〔Berserker〕",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 90,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      6,
+      6,
+      10
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 48,
+    "name": "蘭斯洛特〔Berserker〕",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 90,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      6,
+      6,
+      10
+    ],
+    "priority": "A",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 171,
+    "name": "彭忒西勒亞（CEO）",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 89,
+    "name": "貝奧武夫",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 116,
+    "name": "茨木童子",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 58,
+    "name": "玉藻貓",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 4,
+    "np_type": "全體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 202,
+    "name": "阿塔蘭塔〔Alter〕",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 178,
+    "name": "織田信長〔Berserker〕",
+    "rarity": "4",
+    "class": "Berserker",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 242,
+    "name": "阿斯特蕾亞（金鑽頭）",
+    "rarity": "4",
+    "class": "Ruler",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "單體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 135,
+    "name": "瑪爾大〔Ruler〕",
+    "rarity": "4",
+    "class": "Ruler",
+    "level": 1,
+    "np_level": 3,
+    "np_type": "單體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 147,
+    "name": "艾爾賀",
+    "rarity": "4",
+    "class": "Avenger",
+    "level": 1,
+    "np_level": 2,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 158,
+    "name": "海森・羅伯",
+    "rarity": "4",
+    "class": "Avenger",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 166,
+    "name": "B B",
+    "rarity": "4",
+    "class": "Moon Cancer",
+    "level": 60,
+    "np_level": 5,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 164,
+    "name": "Passionlip",
+    "rarity": "4",
+    "class": "Alter Ego",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "紅",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 1,
+    "name": "瑪修・基利艾拉特",
+    "rarity": "4",
+    "class": "shielder",
+    "level": 90,
+    "np_level": 3,
+    "np_type": "輔助寶具",
+    "np_color": "藍",
+    "skills": [
+      9,
+      9,
+      9
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 288,
+    "name": "虞美人",
+    "rarity": "4",
+    "class": "Lancer",
+    "level": 80,
+    "np_level": 5,
+    "np_type": "單體傷害",
+    "np_color": "綠",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  },
+  {
+    "id": 253,
+    "name": "李奧納多・達・文西",
+    "rarity": "5",
+    "class": "Rider",
+    "level": 1,
+    "np_level": 1,
+    "np_type": "全體傷害",
+    "np_color": "藍",
+    "skills": [
+      1,
+      1,
+      1
+    ],
+    "priority": "B",
+    "target": "目標 10/10/10"
+  }
+]
