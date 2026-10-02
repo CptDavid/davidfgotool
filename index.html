@@ -310,13 +310,17 @@
 
         onMounted(async () => {
           try {
-            const res = await fetch('servants.json');
-            if (res.ok) {
-              const data = await res.json();
-              servants.value = ensureDataStructure(data);
+            const res = await fetch('servants.json?v=' + Date.now()); // 加上 timestamp 防止 CDN 快取
+            if (!res.ok) {
+              console.error('無法取得 servants.json, Status:', res.status);
+              return;
             }
+            const rawData = await res.json();
+            console.log('成功載入 JSON，筆數：', rawData.length);
+            servants.value = ensureDataStructure(rawData);
           } catch (e) {
-            console.warn("自動載入失敗，等待上傳");
+            console.error('解析 servants.json 失敗！請檢查 JSON 語法格式：', e);
+            alert('JSON 載入或解析失敗，請按 F12 開啟 Console 查看具體錯誤訊息！');
           }
         });
 
