@@ -340,6 +340,7 @@
 
     // SHA-256 Hash 轉換函式
     async function hashPassword(str) {
+      alert(str);
       const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
       return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
     }
