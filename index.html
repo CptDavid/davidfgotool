@@ -433,9 +433,9 @@
           return list.map(s => {
             if (!s.skills_detail || s.skills_detail.length < 3) {
               s.skills_detail = [
-                { name: '技能 1', icon: 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png', desc: '充能 / 攻防提升' },
-                { name: '技能 2', icon: 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png', desc: '色卡性能 / 寶具威力提升' },
-                { name: '技能 3', icon: 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png', desc: '生存 / 特攻效果' }
+                { name: '技能 1', icon: '/img/0000.png', desc: '充能 / 攻防提升' },
+                { name: '技能 2', icon: '/img/0000.png', desc: '色卡性能 / 寶具威力提升' },
+                { name: '技能 3', icon: '/img/0000.png', desc: '生存 / 特攻效果' }
               ];
             }
             return s;
@@ -468,12 +468,12 @@
             servantName: servant.name,
             idx,
             name: detail.name || `技能 ${idx + 1}`,
-            icon: detail.icon || 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png',
+            icon: detail.icon || '/img/0000.png',
             desc: detail.desc
           };
         };
 
-        const getSkillIcon = (servant, idx) => servant.skills_detail?.[idx]?.icon || 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png';
+        const getSkillIcon = (servant, idx) => servant.skills_detail?.[idx]?.icon || '/img/0000.png';
 
         const openEditModal = (servant) => { editingServant.value = JSON.parse(JSON.stringify(servant)); };
 
@@ -549,7 +549,7 @@
           B: 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
         }[priority] || 'bg-slate-800 text-slate-400');
 
-        const handleImgError = (e) => { e.target.src = 'https://kazemai.github.io/fgo-vZ/servant/icon/0000.png'; };
+        const handleImgError = (e) => { e.target.src = '/img/0000.png'; };
 
         return {
           servants, editMode, searchQuery, selectedClass, selectedRarity, selectedPriority,
