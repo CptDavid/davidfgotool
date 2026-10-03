@@ -131,6 +131,7 @@
           </div>
 
           <!-- 💥 寶具單獨列 (一行顯示寶具等級與屬性) -->
+		  <!--
           <div class="bg-slate-950 border border-amber-500/30 rounded-lg p-2 mb-2.5 flex items-center justify-between">
             <div class="flex items-center gap-1.5 min-w-0">
               <span class="text-[9px] bg-amber-600 text-white font-bold px-1.5 py-0.5 rounded shrink-0">{{ servant.np_type || '寶具' }}</span>
@@ -138,7 +139,21 @@
             </div>
             <span class="text-xs font-bold text-amber-400 font-mono shrink-0">NP{{ servant.np_level }}</span>
           </div>
+		-->
 
+		<!-- 顯示寶具與依據 np_color 變更底色的 HTML 區塊 -->
+		  <div class="flex items-center gap-2 mt-2">
+			<span :class="{
+					'bg-red-950/80 text-red-300 border-red-800/60': servant.np_color === 'red',
+					'bg-blue-950/80 text-blue-300 border-blue-800/60': servant.np_color === 'blue',
+					'bg-emerald-950/80 text-emerald-300 border-emerald-800/60': servant.np_color === 'green'
+				  }" 
+				  class="px-2.5 py-1 rounded-md border text-xs md:text-sm font-semibold shadow-sm transition-colors flex items-center gap-1">
+			  <!-- 寶具類型與寶具等級 -->
+			  <span>{{ servant.np_type }}</span>
+			  <span>寶{{ servant.np_level }}</span>
+			</span>
+		  </div>
           <!-- ⚔️ 3 行縱向技能區 (顯示技能等級) -->
           <div class="space-y-1.5 bg-slate-950/80 rounded-lg p-2 mb-3 border border-slate-800/80">
             <div class="text-[10px] text-slate-400 mb-1 flex justify-between items-center">
