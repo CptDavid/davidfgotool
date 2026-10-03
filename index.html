@@ -145,19 +145,22 @@
             </div>
           </div>
 
-          <!-- 3 招技能 Icon 區 -->
+          <!-- 3 招技能區（文字名稱版） -->
           <div class="bg-slate-950/80 rounded-lg p-2 mb-3 border border-slate-800/80">
             <div class="text-[10px] text-slate-400 mb-1.5 flex justify-between items-center">
-              <span>保有技能 (Skill Levels)</span>
+              <span>保有技能 (Skill Names & Levels)</span>
               <span class="text-[9px] text-amber-500/80">點擊看詳情</span>
             </div>
 
             <div class="grid grid-cols-3 gap-1.5">
               <div v-for="(lvl, idx) in servant.skills" :key="idx"
                    @click="showSkillDetail(servant, idx)"
-                   class="cursor-pointer bg-slate-900 hover:bg-slate-800 p-1.5 rounded border flex flex-col items-center transition"
+                   class="cursor-pointer bg-slate-900 hover:bg-slate-800 p-1.5 rounded border flex flex-col items-center justify-between transition min-w-0"
                    :class="lvl === 10 ? 'border-amber-500/50 text-amber-300' : 'border-slate-800 text-slate-300'">
-                <img :src="getSkillIcon(servant, idx)" @error="handleSkillImgError" class="w-6 h-6 mb-1 object-contain">
+                <!-- 技能名稱（文字截斷 + 提示框） -->
+                <span class="text-[10px] font-semibold text-slate-200 truncate w-full text-center mb-1" :title="getSkillName(servant, idx)">
+                  {{ getSkillName(servant, idx) }}
+                </span>
                 <span class="text-xs font-mono font-bold">Lv.{{ lvl }}</span>
               </div>
             </div>
@@ -233,27 +236,23 @@
       </div>
     </div>
 
-    <!-- 彈窗 3：fgo.wiki 風格技能詳情 Popover -->
+    <!-- 彈窗 3：技能詳情 Popover (文字標題版) -->
     <div v-if="activeSkillModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
       <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-lg w-full space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto custom-scrollbar">
         
-        <div class="flex items-start gap-3 border-b border-slate-800 pb-3">
-          <div class="w-12 h-12 bg-slate-950 rounded-lg p-1 border border-slate-700 shrink-0 flex items-center justify-center">
-            <img :src="activeSkillModal.icon" @error="handleSkillImgError" class="w-full h-full object-contain">
+        <!-- 技能名稱與資訊頁頭 -->
+        <div class="border-b border-slate-800 pb-3">
+          <div class="flex items-center justify-between">
+            <h4 class="font-bold text-amber-400 text-base truncate">{{ activeSkillModal.name }}</h4>
+            <span class="text-[11px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded font-mono border border-slate-700 shrink-0">
+              {{ activeSkillModal.ct }}
+            </span>
           </div>
-          <div class="flex-1 min-w-0">
-            <div class="flex items-center justify-between">
-              <h4 class="font-bold text-amber-400 text-base truncate">{{ activeSkillModal.name }}</h4>
-              <span class="text-[11px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded font-mono border border-slate-700">
-                {{ activeSkillModal.ct }}
-              </span>
-            </div>
-            <div class="text-xs text-slate-400 mt-1 flex items-center gap-2">
-              <span>從者：{{ activeSkillModal.servantName }}</span>
-              <span class="text-amber-300 font-bold bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
-                當前等級：Lv.{{ activeSkillModal.currentLvl }}
-              </span>
-            </div>
+          <div class="text-xs text-slate-400 mt-1 flex items-center gap-2">
+            <span>從者：{{ activeSkillModal.servantName }}</span>
+            <span class="text-amber-300 font-bold bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
+              當前等級：Lv.{{ activeSkillModal.currentLvl }}
+            </span>
           </div>
         </div>
 
@@ -329,7 +328,7 @@
         </div>
 
         <div class="space-y-3 border-t border-slate-800 pt-3">
-          <h4 class="text-xs font-bold text-slate-300">技能等級設定 (Skill 1~3)</h4>
+          <h4 class="text-xs font-bold text-slate-300">技能等級與名稱設定 (Skill 1~3)</h4>
           <div v-for="(skill, i) in 3" :key="i" class="bg-slate-950 p-2.5 rounded border border-slate-800 space-y-2">
             <div class="flex items-center justify-between text-xs">
               <span class="text-amber-400 font-bold">技能 {{ i+1 }}</span>
@@ -404,7 +403,7 @@
       <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-md w-full space-y-4 shadow-2xl">
         <h3 class="text-lg font-bold text-purple-400">🚀 GitHub API 直線同步設定</h3>
         <p class="text-xs text-slate-400 leading-relaxed">
-          輸入你的 GitHub Personal Access Token (PAT)，點擊同步就能直接寫回 Repo 觸發部署，免開啟電腦終端機！
+          輸入你的 GitHub Personal Access Token (PAT)，點擊同步就能直接寫回 Repo 觸發部署！
         </p>
 
         <div class="space-y-3 text-xs">
@@ -525,14 +524,19 @@
           showChangePassModal.value = false;
         };
 
+        // 取得技能名稱 (無圖片 Logo)
+        const getSkillName = (servant, idx) => {
+          return servant.skills_detail?.[idx]?.name || `技能 ${idx + 1}`;
+        };
+
         // 資料結構規範化
         const ensureDataStructure = (list) => {
           return list.map(s => {
             if (!s.skills_detail || s.skills_detail.length < 3) {
               s.skills_detail = [
-                { name: '技能 1', icon: 'https://media.fgo.wiki/3/32/SkillIcon_100.png', ct: 'CT 7 → 5 回合', effects: [{ target: '己方全體', desc: '攻擊力提升(3回合) & NP增加', scale: '10% ~ 20%' }] },
-                { name: '技能 2', icon: 'https://media.fgo.wiki/d/da/SkillIcon_400.png', ct: 'CT 7 → 5 回合', effects: [{ target: '自身', desc: '指令卡性能提升(3回合)', scale: '20% ~ 30%' }] },
-                { name: '技能 3', icon: 'https://media.fgo.wiki/d/da/SkillIcon_300.png', ct: 'CT 8 → 6 回合', effects: [{ target: '自身', desc: '無敵狀態(1回合) & 寶具威力提升', scale: '10% ~ 20%' }] }
+                { name: '技能 1', ct: 'CT 7 → 5 回合', effects: [{ target: '己方全體', desc: '攻擊力提升(3回合) & NP增加', scale: '10% ~ 20%' }] },
+                { name: '技能 2', ct: 'CT 7 → 5 回合', effects: [{ target: '自身', desc: '指令卡性能提升(3回合)', scale: '20% ~ 30%' }] },
+                { name: '技能 3', ct: 'CT 8 → 6 回合', effects: [{ target: '自身', desc: '無敵狀態(1回合) & 寶具威力提升', scale: '10% ~ 20%' }] }
               ];
             }
             return s;
@@ -567,14 +571,11 @@
             idx,
             currentLvl,
             name: detail.name || `技能 ${idx + 1}`,
-            icon: detail.icon || 'https://media.fgo.wiki/3/32/SkillIcon_100.png',
             ct: detail.ct || 'CT 7 → 5 回合',
             effects: detail.effects || [{ target: '己方全體', desc: '技能效果提升(3回合)', scale: '10% ~ 20%' }],
             levels: detail.levels || Array.from({length: 10}, (_, i) => `Lv.${i+1}: --`)
           };
         };
-
-        const getSkillIcon = (servant, idx) => servant.skills_detail?.[idx]?.icon || 'https://media.fgo.wiki/3/32/SkillIcon_100.png';
 
         const openEditModal = (servant) => { editingServant.value = JSON.parse(JSON.stringify(servant)); };
 
@@ -671,17 +672,16 @@
         }[priority] || 'bg-slate-800 text-slate-400');
 
         const handleImgError = (e) => { e.target.src = 'https://kazemai.github.io/fgo-vZ/servant/icon/0000.png'; };
-        const handleSkillImgError = (e) => { e.target.src = 'https://media.fgo.wiki/3/32/SkillIcon_100.png'; };
 
         return {
           servants, editMode, searchQuery, selectedClass, selectedRarity, selectedPriority,
           showAuthModal, authPasswordInput, authError,
           showChangePassModal, newPassword, confirmPassword,
           activeSkillModal, editingServant, showAddModal, newServant, showGitHubModal, ghRepo, ghToken,
-          stats, availableClasses, filteredServants,
+          stats, availableClasses, filteredServants, getSkillName,
           toggleEditMode, verifyPassword, openChangePassModal, saveNewPassword,
-          showSkillDetail, getSkillIcon, openEditModal, saveServantEdit, openAddModal, addServant, quickLevelUp, quickNpUp,
-          saveAndExport, openGitHubSettings, syncToGitHub, getClassBadgeClass, getPriorityClass, handleImgError, handleSkillImgError
+          showSkillDetail, openEditModal, saveServantEdit, openAddModal, addServant, quickLevelUp, quickNpUp,
+          saveAndExport, openGitHubSettings, syncToGitHub, getClassBadgeClass, getPriorityClass, handleImgError
         };
       }
     }).mount('#app');
