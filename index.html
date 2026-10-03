@@ -504,13 +504,13 @@
 
         onMounted(async () => {
           try {
-            const res = await fetch('servants.json?v=' + Date.now());
+            const res = await fetch('servants.detail.json?v=' + Date.now());
             if (res.ok) {
               const data = await res.json();
               servants.value = ensureDataStructure(data);
             }
           } catch (e) {
-            console.error('載入 servants.json 失敗:', e);
+            console.error('載入 servants.detail.json 失敗:', e);
           }
         });
 
@@ -625,7 +625,7 @@
           const blob = new Blob([JSON.stringify(servants.value, null, 2)], { type: 'application/json' });
           const a = document.createElement('a');
           a.href = URL.createObjectURL(blob);
-          a.download = 'servants.json';
+          a.download = 'servants.detail.json';
           a.click();
         };
 
@@ -637,7 +637,7 @@
           localStorage.setItem('gh_token', ghToken.value);
 
           try {
-            const path = 'servants.json';
+            const path = 'servants.detail.json';
             const getUrl = `https://api.github.com/repos/${ghRepo.value}/contents/${path}`;
             const getRes = await fetch(getUrl, { headers: { Authorization: `token ${ghToken.value}` } });
             let sha = getRes.ok ? (await getRes.json()).sha : '';
@@ -646,7 +646,7 @@
             const putRes = await fetch(getUrl, {
               method: 'PUT',
               headers: { Authorization: `token ${ghToken.value}`, 'Content-Type': 'application/json' },
-              body: JSON.stringify({ message: 'Update servants.json via Web Admin', content, sha: sha || undefined })
+              body: JSON.stringify({ message: 'Update servants.detail.json via Web Admin', content, sha: sha || undefined })
             });
 
             if (putRes.ok) {
