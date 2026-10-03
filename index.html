@@ -231,24 +231,56 @@
       </div>
     </div>
 
-    <!-- 彈窗：技能詳細描述 Modal -->
-    <div v-if="activeSkillModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
-      <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-md w-full space-y-4 shadow-2xl">
-        <div class="flex items-center gap-3 border-b border-slate-800 pb-3">
-          <img :src="activeSkillModal.icon" class="w-10 h-10 object-contain">
-          <div>
-            <h4 class="font-bold text-amber-400 text-base">{{ activeSkillModal.name }}</h4>
-            <span class="text-xs text-slate-400">從者：{{ activeSkillModal.servantName }} (Skill {{ activeSkillModal.idx + 1 }})</span>
-          </div>
+<!-- 彈窗：技能詳細描述與 1~10 級效果數值 (fgo.wiki 風格) -->
+<div v-if="activeSkillModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+  <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-lg w-full space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto custom-scrollbar">
+    
+    <!-- 頂部：fgo.wiki 圖標與技能名稱 -->
+    <div class="flex items-center gap-3 border-b border-slate-800 pb-3">
+      <div class="w-12 h-12 bg-slate-950 rounded-lg p-1 border border-slate-700 shrink-0 flex items-center justify-center">
+        <img :src="activeSkillModal.icon" @error="handleSkillImgError" class="w-full h-full object-contain">
+      </div>
+      <div>
+        <h4 class="font-bold text-amber-400 text-base">{{ activeSkillModal.name }}</h4>
+        <div class="text-xs text-slate-400 mt-0.5 flex items-center gap-2">
+          <span>從者：{{ activeSkillModal.servantName }}</span>
+          <span class="bg-slate-800 px-2 py-0.5 rounded text-amber-300 font-mono">
+            當前等級：Lv.{{ activeSkillModal.currentLvl }}
+          </span>
         </div>
-        <p class="text-sm text-slate-200 leading-relaxed bg-slate-950 p-3 rounded-lg border border-slate-800">
-          {{ activeSkillModal.desc || '暫無詳細技能描述。可在管理模式中自由補充說明。' }}
-        </p>
-        <button @click="activeSkillModal = null" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 py-2 rounded-lg text-sm font-semibold">
-          關閉
-        </button>
       </div>
     </div>
+
+    <!-- 技能詳細效果描述 -->
+    <div class="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1">
+      <div class="text-xs text-amber-500/90 font-bold">技能效果描述</div>
+      <p class="text-xs text-slate-200 leading-relaxed">
+        {{ activeSkillModal.desc || '暫無詳細說明。可在管理模式中自由編輯補充。' }}
+      </p>
+    </div>
+
+    <!-- 1~10 級效果數值變化表 -->
+    <div class="space-y-2">
+      <div class="text-xs font-bold text-slate-300 flex justify-between items-center">
+        <span>各等級效果數值 (Lv.1 ~ Lv.10)</span>
+        <span class="text-[10px] text-slate-500">fgo.wiki 參考數據</span>
+      </div>
+      
+      <div class="grid grid-cols-2 sm:grid-cols-5 gap-1.5 font-mono text-[11px]">
+        <div v-for="(val, lvlIdx) in activeSkillModal.levels" :key="lvlIdx"
+             class="p-2 rounded border text-center transition"
+             :class="(lvlIdx + 1) === activeSkillModal.currentLvl ? 'bg-amber-500/20 border-amber-500 text-amber-300 font-bold' : 'bg-slate-950 border-slate-800 text-slate-400'">
+          {{ val || `Lv.${lvlIdx+1}: --` }}
+        </div>
+      </div>
+    </div>
+
+    <button @click="activeSkillModal = null" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 py-2 rounded-lg text-xs font-semibold transition">
+      關閉
+    </button>
+
+  </div>
+</div>
 
     <!-- 彈窗：編輯從者 Modal -->
     <div v-if="editingServant" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
@@ -462,16 +494,24 @@
           });
         });
 
-        const showSkillDetail = (servant, idx) => {
-          const detail = servant.skills_detail?.[idx] || {};
-          activeSkillModal.value = {
-            servantName: servant.name,
-            idx,
-            name: detail.name || `技能 ${idx + 1}`,
-            icon: detail.icon || 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png',
-            desc: detail.desc
-          };
+      const showSkillDetail = (servant, idx) => {
+        const detail = servant.skills_detail?.[idx] || {};
+        const currentLvl = servant.skills?.[idx] || 1;
+        activeSkillModal.value = {
+          servantName: servant.name,
+          idx,
+          currentLvl,
+          name: detail.name || `技能 ${idx + 1}`,
+          icon: detail.icon || 'https://media.fgo.wiki/3/32/SkillIcon_100.png',
+          desc: detail.desc,
+          levels: detail.levels || Array.from({length: 10}, (_, i) => `Lv.${i+1}: -`)
         };
+      };
+      
+      const handleSkillImgError = (e) => {
+        // 圖片載入失敗時降級為 fgo.wiki 通用技能圖標
+        e.target.src = 'https://media.fgo.wiki/3/32/SkillIcon_100.png';
+      };
 
         const getSkillIcon = (servant, idx) => servant.skills_detail?.[idx]?.icon || 'https://kazemai.github.io/fgo-vZ/sicons/sk_0.png';
 
