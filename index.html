@@ -329,9 +329,9 @@
           return list.map(s => {
             if (!s.skills_detail || s.skills_detail.length < 3) {
               s.skills_detail = [
-                { name: '技能 1', icon: '/img/0000.png', desc: '充能 / 攻防提升' },
-                { name: '技能 2', icon: '/img/0000.png', desc: '色卡性能 / 寶具威力提升' },
-                { name: '技能 3', icon: '/img/0000.png', desc: '生存 / 特攻效果' }
+                { name: '技能 1', icon: '/davidfgotool/img/0000.png', desc: '充能 / 攻防提升' },
+                { name: '技能 2', icon: '/davidfgotool/img/0000.png', desc: '色卡性能 / 寶具威力提升' },
+                { name: '技能 3', icon: '/davidfgotool/img/0000.png', desc: '生存 / 特攻效果' }
               ];
             }
             return s;
@@ -372,7 +372,7 @@
             servantName: servant.name,
             idx,
             name: detail.name || `技能 ${idx + 1}`,
-            icon: detail.icon || '/img/0000.png',
+            icon: detail.icon || '/davidfgotool/img/0000.png',
             desc: detail.desc
           };
         };
@@ -455,7 +455,7 @@
           B: 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
         }[priority] || 'bg-slate-800 text-slate-400');
 
-        const handleImgError = (e) => { e.target.src = '/img/0000.png'; };
+        const handleImgError = (e) => { e.target.src = '/davidfgotool/img/0000.png'; };
 
         return {
           servants, editMode, searchQuery, selectedClass, selectedRarity, selectedPriority,
