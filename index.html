@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FGO 日服從者育成與規劃控制台</title>
-  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Vue 3 CDN -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <style>
     [v-cloak] { display: none; }
@@ -24,7 +22,7 @@
         <h1 class="text-2xl md:text-3xl font-bold text-amber-400 flex items-center gap-2">
           <span>⚔️</span> FGO 從者育成管理系統
         </h1>
-        <p class="text-xs text-slate-400 mt-1">人機共讀 (AI-Friendly) ｜ 支持即時技能檢視與安全後台更新</p>
+        <p class="text-xs text-slate-400 mt-1">人機共讀 (AI-Friendly) ｜ 支援技能強化本、日文寶具詳細資料與安全後台</p>
       </div>
 
       <div class="flex items-center gap-2.5 flex-wrap">
@@ -35,25 +33,17 @@
           <span>{{ editMode ? '🔒 鎖定並退出後台' : '🛠️ 解鎖後台編輯' }}</span>
         </button>
 
-        <!-- 解鎖後顯示的功能按鈕群 -->
         <template v-if="editMode">
-          <button @click="openAddModal" 
-                  class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
+          <button @click="openAddModal" class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
             ➕ 新增從者
           </button>
-
-          <button @click="saveAndExport" 
-                  class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
+          <button @click="saveAndExport" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
             💾 匯出 JSON
           </button>
-
-          <button @click="openGitHubSettings" 
-                  class="bg-purple-600 hover:bg-purple-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
+          <button @click="openGitHubSettings" class="bg-purple-600 hover:bg-purple-500 text-white font-semibold px-3 py-2 rounded-lg text-xs transition shadow">
             🚀 GitHub 直連同步
           </button>
-
-          <button @click="openChangePassModal" 
-                  class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-2 rounded-lg text-xs transition shadow">
+          <button @click="openChangePassModal" class="bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-2 rounded-lg text-xs transition shadow">
             🔑 修改密碼
           </button>
         </template>
@@ -117,13 +107,7 @@
           <!-- 頭像與資訊 -->
           <div class="flex items-start gap-3 mb-3">
             <div class="relative w-14 h-14 rounded-lg overflow-hidden border border-slate-700 shrink-0 bg-slate-950">
-              <img :src="servant.avatar" 
-                   :alt="servant.name" 
-                   @error="handleImgError"
-                   class="w-full h-full object-cover">
-              <span class="absolute bottom-0 right-0 bg-slate-950/90 text-[10px] px-1 text-amber-300 font-mono">
-                NP{{ servant.np_level }}
-              </span>
+              <img :src="servant.avatar" :alt="servant.name" @error="handleImgError" class="w-full h-full object-cover">
             </div>
 
             <div class="flex-1 min-w-0">
@@ -145,23 +129,59 @@
             </div>
           </div>
 
-          <!-- 3 招技能區（文字名稱版） -->
-          <div class="bg-slate-950/80 rounded-lg p-2 mb-3 border border-slate-800/80">
-            <div class="text-[10px] text-slate-400 mb-1.5 flex justify-between items-center">
-              <span>保有技能 (Skill Names & Levels)</span>
-              <span class="text-[9px] text-amber-500/80">點擊看詳情</span>
+          <!-- 💥 寶具 (Noble Phantasm) 單獨列 -->
+          <div @click="showNpDetail(servant)" 
+               class="cursor-pointer bg-slate-950/90 hover:bg-slate-900 border border-amber-500/30 rounded-lg p-2 mb-3 flex items-center justify-between transition group/np">
+            <div class="flex items-center gap-2 min-w-0">
+              <span class="text-[10px] font-bold px-1.5 py-0.5 rounded" :class="getCardBadgeClass(servant.np_detail?.card_type)">
+                {{ servant.np_detail?.card_type || 'Arts' }}
+              </span>
+              <div class="min-w-0">
+                <div class="text-[9px] text-amber-500/80 font-bold">寶具 (Noble Phantasm)</div>
+                <div class="text-xs font-bold text-slate-200 truncate" :title="servant.np_detail?.name_jp">
+                  {{ servant.np_detail?.name_jp || '約束された勝利の剣' }}
+                </div>
+              </div>
+            </div>
+            <div class="text-right shrink-0">
+              <span class="text-xs font-extrabold text-amber-400 font-mono bg-amber-500/10 px-1.5 py-0.5 rounded border border-amber-500/30">
+                NP{{ servant.np_level }}
+              </span>
+            </div>
+          </div>
+
+          <!-- ⚔️ 3 招技能區 (改為 3 行縱向單獨立列) -->
+          <div class="bg-slate-950/80 rounded-lg p-2.5 mb-3 border border-slate-800/80 space-y-2">
+            <div class="text-[10px] text-slate-400 flex justify-between items-center border-b border-slate-800/60 pb-1">
+              <span>保有技能 (Skills)</span>
+              <span class="text-[9px] text-amber-500/80">點擊查看效果與強化本</span>
             </div>
 
-            <div class="grid grid-cols-3 gap-1.5">
+            <!-- 3 行縱向排列 -->
+            <div class="space-y-1.5">
               <div v-for="(lvl, idx) in servant.skills" :key="idx"
                    @click="showSkillDetail(servant, idx)"
-                   class="cursor-pointer bg-slate-900 hover:bg-slate-800 p-1.5 rounded border flex flex-col items-center justify-between transition min-w-0"
-                   :class="lvl === 10 ? 'border-amber-500/50 text-amber-300' : 'border-slate-800 text-slate-300'">
-                <!-- 技能名稱（文字截斷 + 提示框） -->
-                <span class="text-[10px] font-semibold text-slate-200 truncate w-full text-center mb-1" :title="getSkillName(servant, idx)">
-                  {{ getSkillName(servant, idx) }}
-                </span>
-                <span class="text-xs font-mono font-bold">Lv.{{ lvl }}</span>
+                   class="cursor-pointer bg-slate-900 hover:bg-slate-800 p-2 rounded border flex items-center justify-between transition min-w-0"
+                   :class="lvl === 10 ? 'border-amber-500/40' : 'border-slate-800'">
+                
+                <div class="flex items-center gap-2 min-w-0">
+                  <span class="text-[10px] bg-slate-800 text-amber-400 font-mono font-bold px-1.5 py-0.5 rounded shrink-0">
+                    S{{ idx + 1 }}
+                  </span>
+                  <span class="text-xs font-semibold text-slate-200 truncate" :title="getSkillName(servant, idx)">
+                    {{ getSkillName(servant, idx) }}
+                  </span>
+                </div>
+
+                <div class="flex items-center gap-1.5 shrink-0">
+                  <span v-if="getSkillEnhancement(servant, idx)" class="text-[9px] bg-amber-500/20 text-amber-300 px-1 py-0.2 rounded border border-amber-500/30">
+                    強化關卡
+                  </span>
+                  <span class="text-xs font-mono font-bold" :class="lvl === 10 ? 'text-amber-400' : 'text-slate-400'">
+                    Lv.{{ lvl }}
+                  </span>
+                </div>
+
               </div>
             </div>
           </div>
@@ -236,24 +256,29 @@
       </div>
     </div>
 
-    <!-- 彈窗 3：技能詳情 Popover (文字標題版) -->
+    <!-- 彈窗 3：技能詳情 Popover (含強化本描述) -->
     <div v-if="activeSkillModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
       <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-lg w-full space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto custom-scrollbar">
         
-        <!-- 技能名稱與資訊頁頭 -->
         <div class="border-b border-slate-800 pb-3">
-          <div class="flex items-center justify-between">
+          <div class="flex items-center justify-between gap-2">
             <h4 class="font-bold text-amber-400 text-base truncate">{{ activeSkillModal.name }}</h4>
             <span class="text-[11px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded font-mono border border-slate-700 shrink-0">
               {{ activeSkillModal.ct }}
             </span>
           </div>
-          <div class="text-xs text-slate-400 mt-1 flex items-center gap-2">
+          <div class="text-xs text-slate-400 mt-1 flex items-center justify-between">
             <span>從者：{{ activeSkillModal.servantName }}</span>
             <span class="text-amber-300 font-bold bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
-              當前等級：Lv.{{ activeSkillModal.currentLvl }}
+              目前等級：Lv.{{ activeSkillModal.currentLvl }}
             </span>
           </div>
+        </div>
+
+        <!-- 強化本 / 幕間狀態 -->
+        <div class="bg-amber-500/10 border border-amber-500/30 p-2.5 rounded-lg text-xs text-amber-200 flex items-center gap-2">
+          <span>📜 技能強化狀態：</span>
+          <span class="font-bold">{{ activeSkillModal.enhancement || '預設技能' }}</span>
         </div>
 
         <!-- 技能對象標籤與效果 -->
@@ -296,7 +321,67 @@
       </div>
     </div>
 
-    <!-- 彈窗 4：編輯從者 Modal -->
+    <!-- 彈窗 4：寶具詳情 Popover (日文寶具名 + 強化本 + NP1~5 倍率) -->
+    <div v-if="activeNpModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+      <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-lg w-full space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto custom-scrollbar">
+        
+        <div class="border-b border-slate-800 pb-3 flex items-start justify-between">
+          <div>
+            <span class="text-[10px] font-bold px-2 py-0.5 rounded" :class="getCardBadgeClass(activeNpModal.card_type)">
+              {{ activeNpModal.card_type }} 寶具
+            </span>
+            <h4 class="font-bold text-amber-400 text-lg mt-1">{{ activeNpModal.name_jp }}</h4>
+            <p class="text-xs text-slate-400">{{ activeNpModal.type_desc || '全體傷害寶具' }}</p>
+          </div>
+          <span class="text-sm font-extrabold text-amber-400 font-mono bg-amber-500/10 px-2 py-1 rounded border border-amber-500/30">
+            當前 NP{{ activeNpModal.currentNpLvl }}
+          </span>
+        </div>
+
+        <!-- 寶具強化本說明 -->
+        <div class="bg-amber-500/10 border border-amber-500/30 p-2.5 rounded-lg text-xs text-amber-200 flex items-center gap-2">
+          <span>📜 寶具強化狀態：</span>
+          <span class="font-bold">{{ activeNpModal.enhancement || '預設寶具' }}</span>
+        </div>
+
+        <!-- 寶具效果列表 -->
+        <div class="space-y-2">
+          <div class="text-xs font-bold text-slate-300">💥 寶具詳細效果</div>
+          <div v-for="(eff, eIdx) in (activeNpModal.effects || [])" :key="eIdx" 
+               class="bg-slate-950 p-2.5 rounded-lg border border-slate-800 space-y-1">
+            <div class="flex items-center gap-2">
+              <span class="bg-rose-900/80 text-rose-200 text-[10px] font-bold px-2 py-0.5 rounded border border-rose-700 shrink-0">
+                [{{ eff.target || '敵方全體' }}]
+              </span>
+              <span class="text-xs text-slate-200 font-semibold">{{ eff.desc }}</span>
+            </div>
+            <div v-if="eff.scale" class="text-[11px] font-mono text-amber-400/90 bg-slate-900 px-2 py-1 rounded border border-slate-800">
+              {{ eff.scale }}
+            </div>
+          </div>
+        </div>
+
+        <!-- NP1 ~ NP5 倍率對照表 -->
+        <div class="space-y-2">
+          <div class="text-xs font-bold text-slate-300">📊 寶具等級傷害/效果倍率 (NP1 ~ NP5)</div>
+          <div class="grid grid-cols-5 gap-1.5 font-mono text-[11px]">
+            <div v-for="(val, npIdx) in (activeNpModal.np_scaling || ['450%', '600%', '675%', '712.5%', '750%'])" :key="npIdx"
+                 class="p-2 rounded border text-center transition"
+                 :class="(npIdx + 1) === activeNpModal.currentNpLvl ? 'bg-amber-500/20 border-amber-500 text-amber-300 font-bold shadow-sm' : 'bg-slate-950 border-slate-800 text-slate-400'">
+              <div class="text-[9px] text-slate-500">NP{{ npIdx + 1 }}</div>
+              <div>{{ val }}</div>
+            </div>
+          </div>
+        </div>
+
+        <button @click="activeNpModal = null" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 py-2 rounded-lg text-xs font-semibold transition">
+          關閉說明
+        </button>
+
+      </div>
+    </div>
+
+    <!-- 彈窗 5：編輯從者 Modal -->
     <div v-if="editingServant" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
       <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-lg w-full space-y-4 max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl">
         <h3 class="text-lg font-bold text-amber-400 border-b border-slate-800 pb-2">
@@ -327,73 +412,26 @@
           </div>
         </div>
 
+        <!-- 寶具日文名稱編輯 -->
+        <div class="border-t border-slate-800 pt-3 space-y-2 text-xs">
+          <label class="text-amber-400 font-bold block">寶具日文名稱</label>
+          <input type="text" v-model="editingServant.np_detail.name_jp" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
+        </div>
+
         <div class="space-y-3 border-t border-slate-800 pt-3">
-          <h4 class="text-xs font-bold text-slate-300">技能等級與名稱設定 (Skill 1~3)</h4>
+          <h4 class="text-xs font-bold text-slate-300">技能名稱與等級設定 (Skill 1~3)</h4>
           <div v-for="(skill, i) in 3" :key="i" class="bg-slate-950 p-2.5 rounded border border-slate-800 space-y-2">
             <div class="flex items-center justify-between text-xs">
               <span class="text-amber-400 font-bold">技能 {{ i+1 }}</span>
               <span>等級: <input type="number" min="1" max="10" v-model.number="editingServant.skills[i]" class="w-16 bg-slate-900 border border-slate-700 rounded text-center text-white"></span>
             </div>
-            <input type="text" v-model="editingServant.skills_detail[i].name" placeholder="技能名稱" class="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-white">
+            <input type="text" v-model="editingServant.skills_detail[i].name" placeholder="技能名稱 (日文/中文)" class="w-full bg-slate-900 border border-slate-700 rounded p-1.5 text-xs text-white">
           </div>
-        </div>
-
-        <div>
-          <label class="text-xs text-slate-400 block mb-1">練角目標與備註</label>
-          <input type="text" v-model="editingServant.target" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-xs text-white">
         </div>
 
         <div class="flex justify-end gap-2 border-t border-slate-800 pt-3">
           <button @click="editingServant = null" class="px-4 py-1.5 bg-slate-800 text-slate-300 rounded text-xs">取消</button>
           <button @click="saveServantEdit" class="px-4 py-1.5 bg-amber-600 text-white rounded text-xs font-bold">儲存變更</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- 彈窗 5：新增從者 Modal -->
-    <div v-if="showAddModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
-      <div class="bg-slate-900 border border-slate-700 rounded-xl p-5 max-w-md w-full space-y-4 shadow-2xl">
-        <h3 class="text-lg font-bold text-emerald-400">➕ 新增從者</h3>
-        <div class="space-y-3 text-xs">
-          <div class="grid grid-cols-2 gap-2">
-            <div>
-              <label class="block text-slate-400 mb-1">從者 ID (No.)</label>
-              <input type="number" v-model.number="newServant.id" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
-            </div>
-            <div>
-              <label class="block text-slate-400 mb-1">星級 (Rarity)</label>
-              <select v-model.number="newServant.rarity" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
-                <option :value="5">5★ SSR</option>
-                <option :value="4">4★ SR</option>
-                <option :value="3">3★ R</option>
-              </select>
-            </div>
-          </div>
-          <div>
-            <label class="block text-slate-400 mb-1">從者名稱</label>
-            <input type="text" v-model="newServant.name" placeholder="例：阿爾托莉亞" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
-          </div>
-          <div>
-            <label class="block text-slate-400 mb-1">職階 (Class)</label>
-            <select v-model="newServant.class" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-white">
-              <option value="Saber">Saber</option>
-              <option value="Archer">Archer</option>
-              <option value="Lancer">Lancer</option>
-              <option value="Rider">Rider</option>
-              <option value="Caster">Caster</option>
-              <option value="Assassin">Assassin</option>
-              <option value="Berserker">Berserker</option>
-              <option value="Ruler">Ruler</option>
-              <option value="Avenger">Avenger</option>
-              <option value="Alter Ego">Alter Ego</option>
-              <option value="Moon Cancer">Moon Cancer</option>
-              <option value="Foreigner">Foreigner</option>
-            </select>
-          </div>
-        </div>
-        <div class="flex justify-end gap-2 border-t border-slate-800 pt-3">
-          <button @click="showAddModal = false" class="px-3 py-1.5 bg-slate-800 text-slate-300 rounded text-xs">取消</button>
-          <button @click="addServant" class="px-4 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded text-xs">新增</button>
         </div>
       </div>
     </div>
@@ -428,17 +466,15 @@
 
   </div>
 
-  <!-- 全檔唯一核心腳本區塊 -->
+  <!-- 核心 Vue 腳本 -->
   <script>
     const { createApp, ref, computed, onMounted } = Vue;
 
-    // SHA-256 哈希計算
     async function hashPassword(str) {
       const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
       return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
     }
 
-    // 預設密碼 "fgo2026" 的 SHA-256 Hash
     const DEFAULT_PASS_HASH = "d142cb41031a0e9bc52e0081d09ec77ff4d9943fcf3e82d733b1e3e7fef1e5d7";
 
     createApp({
@@ -459,9 +495,8 @@
         const confirmPassword = ref('');
 
         const activeSkillModal = ref(null);
+        const activeNpModal = ref(null);
         const editingServant = ref(null);
-        const showAddModal = ref(false);
-        const newServant = ref({ id: 1, name: '', class: 'Saber', rarity: 5, level: 90, np_level: 1, priority: 'A', target: '10/10/10' });
         
         const showGitHubModal = ref(false);
         const ghRepo = ref(localStorage.getItem('gh_repo') || 'cptdavid/davidfgotool');
@@ -479,7 +514,6 @@
           }
         });
 
-        // 身分驗證與模式切換
         const toggleEditMode = () => {
           if (editMode.value) {
             editMode.value = false;
@@ -493,51 +527,33 @@
         const verifyPassword = async () => {
           const inputHash = await hashPassword(authPasswordInput.value);
           const savedHash = localStorage.getItem('fgo_admin_pass_hash') || DEFAULT_PASS_HASH;
-
           if (inputHash === savedHash) {
             editMode.value = true;
             showAuthModal.value = false;
             authError.value = '';
           } else {
-            authError.value = '❌ 密碼錯誤，請重新輸入！';
+            authError.value = '❌ 密碼錯誤！';
           }
         };
 
-        const openChangePassModal = () => {
-          newPassword.value = '';
-          confirmPassword.value = '';
-          showChangePassModal.value = true;
-        };
-
-        const saveNewPassword = async () => {
-          if (!newPassword.value || newPassword.value.length < 4) {
-            alert('密碼長度太短（至少 4 個字元）');
-            return;
-          }
-          if (newPassword.value !== confirmPassword.value) {
-            alert('兩次輸入的密碼不一致！');
-            return;
-          }
-          const hash = await hashPassword(newPassword.value);
-          localStorage.setItem('fgo_admin_pass_hash', hash);
-          alert('🔑 密碼修改成功！下次開啟請使用新密碼。');
-          showChangePassModal.value = false;
-        };
-
-        // 取得技能名稱 (無圖片 Logo)
-        const getSkillName = (servant, idx) => {
-          return servant.skills_detail?.[idx]?.name || `技能 ${idx + 1}`;
-        };
-
-        // 資料結構規範化
         const ensureDataStructure = (list) => {
           return list.map(s => {
             if (!s.skills_detail || s.skills_detail.length < 3) {
               s.skills_detail = [
-                { name: '技能 1', ct: 'CT 7 → 5 回合', effects: [{ target: '己方全體', desc: '攻擊力提升(3回合) & NP增加', scale: '10% ~ 20%' }] },
-                { name: '技能 2', ct: 'CT 7 → 5 回合', effects: [{ target: '自身', desc: '指令卡性能提升(3回合)', scale: '20% ~ 30%' }] },
-                { name: '技能 3', ct: 'CT 8 → 6 回合', effects: [{ target: '自身', desc: '無敵狀態(1回合) & 寶具威力提升', scale: '10% ~ 20%' }] }
+                { name: '固有技能 1', ct: 'CT 7 → 5 回合', enhancement: '預設技能', effects: [{ target: '己方全體', desc: '攻擊力提升(3回合) & NP增加', scale: '10% ~ 20%' }] },
+                { name: '固有技能 2', ct: 'CT 7 → 5 回合', enhancement: '強化關卡 第1彈 通關後強化', effects: [{ target: '自身', desc: '指令卡性能提升(3回合)', scale: '20% ~ 30%' }] },
+                { name: '固有技能 3', ct: 'CT 8 → 6 回合', enhancement: '預設技能', effects: [{ target: '自身', desc: '無敵狀態(1回合) & 寶具威力提升', scale: '10% ~ 20%' }] }
               ];
+            }
+            if (!s.np_detail) {
+              s.np_detail = {
+                name_jp: '約束された勝利の剣 (エクスカリバー)',
+                card_type: 'Arts',
+                type_desc: '對軍寶具 / 全體極大傷害',
+                enhancement: '寶具強化關卡 第1彈 通關後強化',
+                effects: [{ target: '敵方全體', desc: '發動極大強力的攻擊 [Lv.1~5]', scale: '450% ~ 750%' }],
+                np_scaling: ['450%', '600%', '675%', '712.5%', '750%']
+              };
             }
             return s;
           });
@@ -563,17 +579,34 @@
           });
         });
 
+        const getSkillName = (servant, idx) => servant.skills_detail?.[idx]?.name || `技能 ${idx + 1}`;
+        const getSkillEnhancement = (servant, idx) => servant.skills_detail?.[idx]?.enhancement;
+
         const showSkillDetail = (servant, idx) => {
           const detail = servant.skills_detail?.[idx] || {};
-          const currentLvl = servant.skills?.[idx] || 1;
           activeSkillModal.value = {
             servantName: servant.name,
             idx,
-            currentLvl,
+            currentLvl: servant.skills?.[idx] || 1,
             name: detail.name || `技能 ${idx + 1}`,
             ct: detail.ct || 'CT 7 → 5 回合',
-            effects: detail.effects || [{ target: '己方全體', desc: '技能效果提升(3回合)', scale: '10% ~ 20%' }],
+            enhancement: detail.enhancement || '預設技能',
+            effects: detail.effects || [{ target: '己方全體', desc: '技能效果提升', scale: '10% ~ 20%' }],
             levels: detail.levels || Array.from({length: 10}, (_, i) => `Lv.${i+1}: --`)
+          };
+        };
+
+        const showNpDetail = (servant) => {
+          const np = servant.np_detail || {};
+          activeNpModal.value = {
+            servantName: servant.name,
+            currentNpLvl: servant.np_level || 1,
+            name_jp: np.name_jp || '約束された勝利の剣',
+            card_type: np.card_type || 'Arts',
+            type_desc: np.type_desc || '全體傷害寶具',
+            enhancement: np.enhancement || '預設寶具',
+            effects: np.effects || [{ target: '敵方全體', desc: '極大強力的攻擊', scale: '450% ~ 750%' }],
+            np_scaling: np.np_scaling || ['450%', '600%', '675%', '712.5%', '750%']
           };
         };
 
@@ -583,26 +616,6 @@
           const idx = servants.value.findIndex(s => s.id === editingServant.value.id);
           if (idx !== -1) servants.value[idx] = editingServant.value;
           editingServant.value = null;
-        };
-
-        const openAddModal = () => { showAddModal.value = true; };
-
-        const addServant = () => {
-          if (!newServant.value.name) { alert('請填寫從者名稱'); return; }
-          const item = {
-            id: newServant.value.id,
-            name: newServant.value.name,
-            class: newServant.value.class,
-            rarity: newServant.value.rarity,
-            level: newServant.value.level || 90,
-            np_level: newServant.value.np_level || 1,
-            skills: [1, 1, 1],
-            priority: newServant.value.priority || 'A',
-            target: newServant.value.target || '10/10/10',
-            avatar: `https://media.fgo.wiki/9/9c/Servant${String(newServant.value.id).padStart(3, '0')}.jpg`
-          };
-          servants.value.unshift(ensureDataStructure([item])[0]);
-          showAddModal.value = false;
         };
 
         const quickLevelUp = (servant) => { if (servant.level < 120) servant.level++; };
@@ -627,28 +640,17 @@
             const path = 'servants.json';
             const getUrl = `https://api.github.com/repos/${ghRepo.value}/contents/${path}`;
             const getRes = await fetch(getUrl, { headers: { Authorization: `token ${ghToken.value}` } });
-            let sha = '';
-            if (getRes.ok) {
-              const fileData = await getRes.json();
-              sha = fileData.sha;
-            }
+            let sha = getRes.ok ? (await getRes.json()).sha : '';
 
             const content = btoa(unescape(encodeURIComponent(JSON.stringify(servants.value, null, 2))));
             const putRes = await fetch(getUrl, {
               method: 'PUT',
-              headers: {
-                Authorization: `token ${ghToken.value}`,
-                'Content-Type': 'application/json'
-              },
-              body: JSON.stringify({
-                message: 'Update servants.json via Web Admin',
-                content: content,
-                sha: sha || undefined
-              })
+              headers: { Authorization: `token ${ghToken.value}`, 'Content-Type': 'application/json' },
+              body: JSON.stringify({ message: 'Update servants.json via Web Admin', content, sha: sha || undefined })
             });
 
             if (putRes.ok) {
-              alert('🎉 成功 Commit 並觸發 GitHub Pages 部署！幾秒鐘後生效。');
+              alert('🎉 成功 Commit 並觸發 GitHub Pages 部署！');
               showGitHubModal.value = false;
             } else {
               alert('同步失敗，請檢查 Token 權限。');
@@ -665,6 +667,12 @@
           Berserker: 'bg-rose-950 text-rose-300'
         }[cls] || 'bg-indigo-900/80 text-indigo-200');
 
+        const getCardBadgeClass = (card) => ({
+          Arts: 'bg-blue-600 text-white',
+          Buster: 'bg-red-600 text-white',
+          Quick: 'bg-emerald-600 text-white'
+        }[card] || 'bg-amber-600 text-white');
+
         const getPriorityClass = (priority) => ({
           S: 'bg-rose-500/20 text-rose-300 border border-rose-500/40',
           A: 'bg-amber-500/20 text-amber-300 border border-amber-500/40',
@@ -677,11 +685,11 @@
           servants, editMode, searchQuery, selectedClass, selectedRarity, selectedPriority,
           showAuthModal, authPasswordInput, authError,
           showChangePassModal, newPassword, confirmPassword,
-          activeSkillModal, editingServant, showAddModal, newServant, showGitHubModal, ghRepo, ghToken,
-          stats, availableClasses, filteredServants, getSkillName,
-          toggleEditMode, verifyPassword, openChangePassModal, saveNewPassword,
-          showSkillDetail, openEditModal, saveServantEdit, openAddModal, addServant, quickLevelUp, quickNpUp,
-          saveAndExport, openGitHubSettings, syncToGitHub, getClassBadgeClass, getPriorityClass, handleImgError
+          activeSkillModal, activeNpModal, editingServant, showGitHubModal, ghRepo, ghToken,
+          stats, availableClasses, filteredServants, getSkillName, getSkillEnhancement,
+          toggleEditMode, verifyPassword,
+          showSkillDetail, showNpDetail, openEditModal, saveServantEdit, quickLevelUp, quickNpUp,
+          saveAndExport, openGitHubSettings, syncToGitHub, getClassBadgeClass, getCardBadgeClass, getPriorityClass, handleImgError
         };
       }
     }).mount('#app');
