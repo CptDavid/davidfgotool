@@ -11,7 +11,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant284.jpg",
+    "avatar": "/davidfgotool/img/Servant284.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -30,7 +30,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant002.jpg",
+    "avatar": "/davidfgotool/img/Servant002.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -49,7 +49,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant309.jpg",
+    "avatar": "/davidfgotool/img/Servant309.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -68,7 +68,7 @@
     "skills": [4, 4, 4],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant012.jpg",
+    "avatar": "/davidfgotool/img/Servant012.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.4)" },
       { "name": "技能 2 (Lv.4)" },
@@ -87,7 +87,7 @@
     "skills": [10, 10, 5],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant129.jpg",
+    "avatar": "/davidfgotool/img/Servant129.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -106,7 +106,7 @@
     "skills": [10, 10, 6],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant216.jpg",
+    "avatar": "/davidfgotool/img/Servant216.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -125,7 +125,7 @@
     "skills": [1, 6, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant085.jpg",
+    "avatar": "/davidfgotool/img/Servant085.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.6)" },
@@ -144,7 +144,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant119.jpg",
+    "avatar": "/davidfgotool/img/Servant119.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -163,7 +163,7 @@
     "skills": [6, 6, 6],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant143.jpg",
+    "avatar": "/davidfgotool/img/Servant143.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.6)" },
       { "name": "技能 2 (Lv.6)" },
@@ -182,7 +182,7 @@
     "skills": [10, 1, 10],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant206.jpg",
+    "avatar": "/davidfgotool/img/Servant206.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.1)" },
@@ -201,7 +201,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant037.jpg",
+    "avatar": "/davidfgotool/img/Servant037.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -220,7 +220,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant062.jpg",
+    "avatar": "/davidfgotool/img/Servant062.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -239,7 +239,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant150.jpg",
+    "avatar": "/davidfgotool/img/Servant150.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -258,7 +258,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant215.jpg",
+    "avatar": "/davidfgotool/img/Servant215.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -277,7 +277,7 @@
     "skills": [10, 1, 1],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant075.jpg",
+    "avatar": "/davidfgotool/img/Servant075.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.1)" },
@@ -296,7 +296,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant059.jpg",
+    "avatar": "/davidfgotool/img/Servant059.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -315,7 +315,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant229.jpg",
+    "avatar": "/davidfgotool/img/Servant229.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -334,7 +334,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant305.jpg",
+    "avatar": "/davidfgotool/img/Servant305.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -353,7 +353,7 @@
     "skills": [5, 10, 1],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant096.jpg",
+    "avatar": "/davidfgotool/img/Servant096.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.5)" },
       { "name": "技能 2 (Lv.10)" },
@@ -372,7 +372,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant106.jpg",
+    "avatar": "/davidfgotool/img/Servant106.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -391,7 +391,7 @@
     "skills": [10, 10, 10],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant268.jpg",
+    "avatar": "/davidfgotool/img/Servant268.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.10)" },
@@ -410,7 +410,7 @@
     "skills": [6, 6, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant163.jpg",
+    "avatar": "/davidfgotool/img/Servant163.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.6)" },
       { "name": "技能 2 (Lv.6)" },
@@ -429,7 +429,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant209.jpg",
+    "avatar": "/davidfgotool/img/Servant209.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -448,7 +448,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant351.jpg",
+    "avatar": "/davidfgotool/img/Servant351.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -467,7 +467,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant142.jpg",
+    "avatar": "/davidfgotool/img/Servant142.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -486,7 +486,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant241.jpg",
+    "avatar": "/davidfgotool/img/Servant241.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -505,7 +505,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant237.jpg",
+    "avatar": "/davidfgotool/img/Servant237.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -524,7 +524,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant155.jpg",
+    "avatar": "/davidfgotool/img/Servant155.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -543,7 +543,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant195.jpg",
+    "avatar": "/davidfgotool/img/Servant195.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -562,7 +562,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant008.jpg",
+    "avatar": "/davidfgotool/img/Servant008.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -581,7 +581,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant076.jpg",
+    "avatar": "/davidfgotool/img/Servant076.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -600,7 +600,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant084.jpg",
+    "avatar": "/davidfgotool/img/Servant084.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -619,7 +619,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant212.jpg",
+    "avatar": "/davidfgotool/img/Servant212.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -638,7 +638,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant070.jpg",
+    "avatar": "/davidfgotool/img/Servant070.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -657,7 +657,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant205.jpg",
+    "avatar": "/davidfgotool/img/Servant205.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -676,7 +676,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant274.jpg",
+    "avatar": "/davidfgotool/img/Servant274.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -695,7 +695,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant189.jpg",
+    "avatar": "/davidfgotool/img/Servant189.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -714,7 +714,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant235.jpg",
+    "avatar": "/davidfgotool/img/Servant235.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -733,7 +733,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant161.jpg",
+    "avatar": "/davidfgotool/img/Servant161.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -752,7 +752,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant226.jpg",
+    "avatar": "/davidfgotool/img/Servant226.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -771,7 +771,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant265.jpg",
+    "avatar": "/davidfgotool/img/Servant265.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -790,7 +790,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant303.jpg",
+    "avatar": "/davidfgotool/img/Servant303.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -809,7 +809,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant238.jpg",
+    "avatar": "/davidfgotool/img/Servant238.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -828,7 +828,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant244.jpg",
+    "avatar": "/davidfgotool/img/Servant244.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -847,7 +847,7 @@
     "skills": [4, 4, 4],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant003.jpg",
+    "avatar": "/davidfgotool/img/Servant003.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.4)" },
       { "name": "技能 2 (Lv.4)" },
@@ -866,7 +866,7 @@
     "skills": [6, 6, 6],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant264.jpg",
+    "avatar": "/davidfgotool/img/Servant264.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.6)" },
       { "name": "技能 2 (Lv.6)" },
@@ -885,7 +885,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant121.jpg",
+    "avatar": "/davidfgotool/img/Servant121.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -904,7 +904,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant005.jpg",
+    "avatar": "/davidfgotool/img/Servant005.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -923,7 +923,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant187.jpg",
+    "avatar": "/davidfgotool/img/Servant187.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -942,7 +942,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant123.jpg",
+    "avatar": "/davidfgotool/img/Servant123.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -961,7 +961,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant165.jpg",
+    "avatar": "/davidfgotool/img/Servant165.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -980,7 +980,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant101.jpg",
+    "avatar": "/davidfgotool/img/Servant101.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -999,7 +999,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant245.jpg",
+    "avatar": "/davidfgotool/img/Servant245.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1018,7 +1018,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant221.jpg",
+    "avatar": "/davidfgotool/img/Servant221.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1037,7 +1037,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant010.jpg",
+    "avatar": "/davidfgotool/img/Servant010.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1056,7 +1056,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant004.jpg",
+    "avatar": "/davidfgotool/img/Servant004.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1075,7 +1075,7 @@
     "skills": [1, 6, 6],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant011.jpg",
+    "avatar": "/davidfgotool/img/Servant011.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.6)" },
@@ -1094,7 +1094,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant197.jpg",
+    "avatar": "/davidfgotool/img/Servant197.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1113,7 +1113,7 @@
     "skills": [1, 1, 6],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant137.jpg",
+    "avatar": "/davidfgotool/img/Servant137.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1132,7 +1132,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant184.jpg",
+    "avatar": "/davidfgotool/img/Servant184.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1151,7 +1151,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant269.jpg",
+    "avatar": "/davidfgotool/img/Servant269.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1170,7 +1170,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant271.jpg",
+    "avatar": "/davidfgotool/img/Servant271.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1189,7 +1189,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant122.jpg",
+    "avatar": "/davidfgotool/img/Servant122.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1208,7 +1208,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant014.jpg",
+    "avatar": "/davidfgotool/img/Servant014.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1227,7 +1227,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant262.jpg",
+    "avatar": "/davidfgotool/img/Servant262.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1246,7 +1246,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant102.jpg",
+    "avatar": "/davidfgotool/img/Servant102.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1265,7 +1265,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant214.jpg",
+    "avatar": "/davidfgotool/img/Servant214.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1284,7 +1284,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant252.jpg",
+    "avatar": "/davidfgotool/img/Servant252.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1303,7 +1303,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant193.jpg",
+    "avatar": "/davidfgotool/img/Servant193.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1322,7 +1322,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant181.jpg",
+    "avatar": "/davidfgotool/img/Servant181.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1341,7 +1341,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant146.jpg",
+    "avatar": "/davidfgotool/img/Servant146.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1360,7 +1360,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant140.jpg",
+    "avatar": "/davidfgotool/img/Servant140.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1379,7 +1379,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant266.jpg",
+    "avatar": "/davidfgotool/img/Servant266.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1398,7 +1398,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant228.jpg",
+    "avatar": "/davidfgotool/img/Servant228.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1417,7 +1417,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant217.jpg",
+    "avatar": "/davidfgotool/img/Servant217.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1436,7 +1436,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant087.jpg",
+    "avatar": "/davidfgotool/img/Servant087.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1455,7 +1455,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant018.jpg",
+    "avatar": "/davidfgotool/img/Servant018.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1474,7 +1474,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant183.jpg",
+    "avatar": "/davidfgotool/img/Servant183.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1493,7 +1493,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant115.jpg",
+    "avatar": "/davidfgotool/img/Servant115.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1512,7 +1512,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant211.jpg",
+    "avatar": "/davidfgotool/img/Servant211.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1531,7 +1531,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant073.jpg",
+    "avatar": "/davidfgotool/img/Servant073.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1550,7 +1550,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant094.jpg",
+    "avatar": "/davidfgotool/img/Servant094.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1569,7 +1569,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant066.jpg",
+    "avatar": "/davidfgotool/img/Servant066.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1588,7 +1588,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant263.jpg",
+    "avatar": "/davidfgotool/img/Servant263.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1607,7 +1607,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant029.jpg",
+    "avatar": "/davidfgotool/img/Servant029.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1626,7 +1626,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant030.jpg",
+    "avatar": "/davidfgotool/img/Servant030.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1645,7 +1645,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant315.jpg",
+    "avatar": "/davidfgotool/img/Servant315.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1664,7 +1664,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant145.jpg",
+    "avatar": "/davidfgotool/img/Servant145.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1683,7 +1683,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant225.jpg",
+    "avatar": "/davidfgotool/img/Servant225.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1702,7 +1702,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant120.jpg",
+    "avatar": "/davidfgotool/img/Servant120.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1721,7 +1721,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant074.jpg",
+    "avatar": "/davidfgotool/img/Servant074.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1740,7 +1740,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant111.jpg",
+    "avatar": "/davidfgotool/img/Servant111.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1759,7 +1759,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant067.jpg",
+    "avatar": "/davidfgotool/img/Servant067.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1778,7 +1778,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant130.jpg",
+    "avatar": "/davidfgotool/img/Servant130.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1797,7 +1797,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant192.jpg",
+    "avatar": "/davidfgotool/img/Servant192.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1816,7 +1816,7 @@
     "skills": [6, 6, 6],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant243.jpg",
+    "avatar": "/davidfgotool/img/Servant243.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.6)" },
       { "name": "技能 2 (Lv.6)" },
@@ -1835,7 +1835,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant267.jpg",
+    "avatar": "/davidfgotool/img/Servant267.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1854,7 +1854,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant170.jpg",
+    "avatar": "/davidfgotool/img/Servant170.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1873,7 +1873,7 @@
     "skills": [4, 4, 6],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant109.jpg",
+    "avatar": "/davidfgotool/img/Servant109.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.4)" },
       { "name": "技能 2 (Lv.4)" },
@@ -1892,7 +1892,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant218.jpg",
+    "avatar": "/davidfgotool/img/Servant218.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1911,7 +1911,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant185.jpg",
+    "avatar": "/davidfgotool/img/Servant185.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1930,7 +1930,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant304.jpg",
+    "avatar": "/davidfgotool/img/Servant304.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1949,7 +1949,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant159.jpg",
+    "avatar": "/davidfgotool/img/Servant159.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1968,7 +1968,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant046.jpg",
+    "avatar": "/davidfgotool/img/Servant046.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -1987,7 +1987,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant082.jpg",
+    "avatar": "/davidfgotool/img/Servant082.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2006,7 +2006,7 @@
     "skills": [10, 8, 7],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant047.jpg",
+    "avatar": "/davidfgotool/img/Servant047.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.10)" },
       { "name": "技能 2 (Lv.8)" },
@@ -2025,7 +2025,7 @@
     "skills": [6, 6, 10],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant219.jpg",
+    "avatar": "/davidfgotool/img/Servant219.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.6)" },
       { "name": "技能 2 (Lv.6)" },
@@ -2044,7 +2044,7 @@
     "skills": [6, 6, 10],
     "priority": "A",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant048.jpg",
+    "avatar": "/davidfgotool/img/Servant048.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.6)" },
       { "name": "技能 2 (Lv.6)" },
@@ -2063,7 +2063,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant171.jpg",
+    "avatar": "/davidfgotool/img/Servant171.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2082,7 +2082,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant089.jpg",
+    "avatar": "/davidfgotool/img/Servant089.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2101,7 +2101,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant116.jpg",
+    "avatar": "/davidfgotool/img/Servant116.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2120,7 +2120,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant058.jpg",
+    "avatar": "/davidfgotool/img/Servant058.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2139,7 +2139,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant202.jpg",
+    "avatar": "/davidfgotool/img/Servant202.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2158,7 +2158,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant178.jpg",
+    "avatar": "/davidfgotool/img/Servant178.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2177,7 +2177,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant242.jpg",
+    "avatar": "/davidfgotool/img/Servant242.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2196,7 +2196,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant135.jpg",
+    "avatar": "/davidfgotool/img/Servant135.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2215,7 +2215,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant147.jpg",
+    "avatar": "/davidfgotool/img/Servant147.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2234,7 +2234,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant158.jpg",
+    "avatar": "/davidfgotool/img/Servant158.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2253,7 +2253,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant166.jpg",
+    "avatar": "/davidfgotool/img/Servant166.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2272,7 +2272,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant164.jpg",
+    "avatar": "/davidfgotool/img/Servant164.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2291,7 +2291,7 @@
     "skills": [9, 9, 9],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant001.jpg",
+    "avatar": "/davidfgotool/img/Servant001.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.9)" },
       { "name": "技能 2 (Lv.9)" },
@@ -2310,7 +2310,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant288.jpg",
+    "avatar": "/davidfgotool/img/Servant288.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
@@ -2329,7 +2329,7 @@
     "skills": [1, 1, 1],
     "priority": "B",
     "target": "目標 10/10/10",
-    "avatar": "/img/Servant253.jpg",
+    "avatar": "/davidfgotool/img/Servant253.jpg",
     "skills_detail": [
       { "name": "技能 1 (Lv.1)" },
       { "name": "技能 2 (Lv.1)" },
