@@ -361,7 +361,7 @@
         // 取得本地頭像路徑 (自動 3 位數補零)
         const getAvatarUrl = (id) => {
           const paddedId = String(id).padStart(3, '0');
-          return `/img/Servant${paddedId}.jpg`;
+          return `/davidfgotool/img/Servant${paddedId}.jpg`;
         };
 
         const getSkillName = (servant, idx) => servant.skills_detail?.[idx]?.name || `技能 ${idx + 1}`;
