@@ -15,21 +15,18 @@
     ],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "https://media.fgo.wiki/d/d9/Servant284.jpg",
+    "avatar": "/img/Servant284.jpg",
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -54,17 +51,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -89,17 +83,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -124,17 +115,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -159,17 +147,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.5)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -194,17 +179,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -229,17 +211,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -264,17 +243,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -299,17 +275,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -334,17 +307,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -369,17 +339,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -404,17 +371,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -439,17 +403,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -474,17 +435,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -509,17 +467,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -544,17 +499,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -579,17 +531,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -614,17 +563,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -649,17 +595,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.5)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -684,17 +627,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -719,17 +659,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -754,17 +691,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -789,17 +723,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -824,17 +755,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -859,17 +787,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -894,17 +819,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -929,17 +851,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -964,17 +883,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -999,17 +915,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1034,17 +947,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1069,17 +979,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1104,17 +1011,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1139,17 +1043,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1174,17 +1075,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1209,17 +1107,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1244,17 +1139,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1279,17 +1171,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1314,17 +1203,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1349,17 +1235,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1384,17 +1267,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1419,17 +1299,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1454,17 +1331,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1489,17 +1363,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1524,17 +1395,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1559,17 +1427,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1594,17 +1459,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1629,17 +1491,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1664,17 +1523,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1699,17 +1555,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1734,17 +1587,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1769,17 +1619,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1804,17 +1651,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1839,17 +1683,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1874,17 +1715,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1909,17 +1747,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1944,17 +1779,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -1979,17 +1811,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2014,17 +1843,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2049,17 +1875,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2084,17 +1907,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2119,17 +1939,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2154,17 +1971,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2189,17 +2003,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2224,17 +2035,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2259,17 +2067,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2294,17 +2099,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2329,17 +2131,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2364,17 +2163,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2399,17 +2195,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2434,17 +2227,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2469,17 +2259,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2504,17 +2291,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2539,17 +2323,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2574,17 +2355,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2609,17 +2387,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2644,17 +2419,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2679,17 +2451,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2714,17 +2483,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2749,17 +2515,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2784,17 +2547,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2819,17 +2579,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2854,17 +2611,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2889,17 +2643,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2924,17 +2675,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2959,17 +2707,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -2994,17 +2739,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3029,17 +2771,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3064,17 +2803,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3099,17 +2835,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3134,17 +2867,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3169,17 +2899,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3204,17 +2931,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3239,17 +2963,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3274,17 +2995,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3309,17 +3027,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3344,17 +3059,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3379,17 +3091,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3414,17 +3123,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3449,17 +3155,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.4)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3484,17 +3187,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3519,17 +3219,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3554,17 +3251,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3589,17 +3283,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3624,17 +3315,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3659,17 +3347,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3694,17 +3379,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.8)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.7)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3729,17 +3411,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3764,17 +3443,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.6)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.10)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3799,17 +3475,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3834,17 +3507,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3869,17 +3539,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3904,17 +3571,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3939,17 +3603,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -3974,17 +3635,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4009,17 +3667,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4044,17 +3699,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4079,17 +3731,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4114,17 +3763,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4149,17 +3795,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4184,17 +3827,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4219,17 +3859,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.9)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.9)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.9)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4254,17 +3891,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
@@ -4289,17 +3923,14 @@
     "skills_detail": [
       {
         "name": "技能 1 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "己方單體 / 全體效果或自充技能"
       },
       {
         "name": "技能 2 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "色卡性能提升 / 攻擊力提升"
       },
       {
         "name": "技能 3 (Lv.1)",
-        "icon": "https://kazemai.github.io/fgo-vZ/sicons/sk_0.png",
         "desc": "生存 / 寶具威力提升 / 特攻效果"
       }
     ]
