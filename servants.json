@@ -15,20 +15,14 @@
     ],
     "priority": "S",
     "target": "已完成三滿技",
-    "avatar": "/img/Servant284.jpg",
+    "avatar": "https://media.fgo.wiki/d/d9/Servant284.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -50,17 +44,11 @@
     "avatar": "https://media.fgo.wiki/c/ca/Servant002.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -82,17 +70,11 @@
     "avatar": "https://media.fgo.wiki/5/5f/Servant309.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -114,17 +96,11 @@
     "avatar": "https://media.fgo.wiki/6/62/Servant012.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.4)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.4)"},
       {
-        "name": "技能 2 (Lv.4)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.4)"},
       {
-        "name": "技能 3 (Lv.4)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.4)"}
     ]
   },
   {
@@ -146,17 +122,11 @@
     "avatar": "https://media.fgo.wiki/2/29/Servant129.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.5)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.5)"}
     ]
   },
   {
@@ -178,17 +148,11 @@
     "avatar": "https://media.fgo.wiki/3/35/Servant216.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -210,17 +174,11 @@
     "avatar": "https://media.fgo.wiki/9/99/Servant085.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -242,17 +200,11 @@
     "avatar": "https://media.fgo.wiki/6/6c/Servant119.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -274,17 +226,11 @@
     "avatar": "https://media.fgo.wiki/9/99/Servant143.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.6)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.6)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -306,17 +252,11 @@
     "avatar": "https://media.fgo.wiki/1/18/Servant206.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -338,17 +278,11 @@
     "avatar": "https://media.fgo.wiki/4/40/Servant037.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -370,17 +304,11 @@
     "avatar": "https://media.fgo.wiki/6/6c/Servant062.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -402,17 +330,11 @@
     "avatar": "https://media.fgo.wiki/0/04/Servant150.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -434,17 +356,11 @@
     "avatar": "https://media.fgo.wiki/8/89/Servant215.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -466,17 +382,11 @@
     "avatar": "https://media.fgo.wiki/5/58/Servant075.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -498,17 +408,11 @@
     "avatar": "https://media.fgo.wiki/a/a5/Servant059.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -530,17 +434,11 @@
     "avatar": "https://media.fgo.wiki/3/3d/Servant229.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -562,17 +460,11 @@
     "avatar": "https://media.fgo.wiki/a/ad/Servant305.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -594,17 +486,11 @@
     "avatar": "https://media.fgo.wiki/a/a3/Servant096.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.5)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.5)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -626,17 +512,11 @@
     "avatar": "https://media.fgo.wiki/5/54/Servant106.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -658,17 +538,11 @@
     "avatar": "https://media.fgo.wiki/5/56/Servant268.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.10)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.10)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -690,17 +564,11 @@
     "avatar": "https://media.fgo.wiki/4/43/Servant163.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.6)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.6)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -722,17 +590,11 @@
     "avatar": "https://media.fgo.wiki/f/ff/Servant209.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -754,17 +616,11 @@
     "avatar": "https://media.fgo.wiki/a/a6/Servant351.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -786,17 +642,11 @@
     "avatar": "https://media.fgo.wiki/b/b0/Servant142.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -818,17 +668,11 @@
     "avatar": "https://media.fgo.wiki/6/6f/Servant241.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -850,17 +694,11 @@
     "avatar": "https://media.fgo.wiki/7/77/Servant237.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -882,17 +720,11 @@
     "avatar": "https://media.fgo.wiki/9/9c/Servant155.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -914,17 +746,11 @@
     "avatar": "https://media.fgo.wiki/8/88/Servant195.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -946,17 +772,11 @@
     "avatar": "https://media.fgo.wiki/0/0b/Servant008.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -978,17 +798,11 @@
     "avatar": "https://media.fgo.wiki/e/e4/Servant076.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1010,17 +824,11 @@
     "avatar": "https://media.fgo.wiki/4/45/Servant084.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1042,17 +850,11 @@
     "avatar": "https://media.fgo.wiki/f/f9/Servant212.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1074,17 +876,11 @@
     "avatar": "https://media.fgo.wiki/3/3a/Servant070.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1106,17 +902,11 @@
     "avatar": "https://media.fgo.wiki/6/60/Servant205.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1138,17 +928,11 @@
     "avatar": "https://media.fgo.wiki/a/ad/Servant274.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1170,17 +954,11 @@
     "avatar": "https://media.fgo.wiki/a/aa/Servant189.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1202,17 +980,11 @@
     "avatar": "https://media.fgo.wiki/5/56/Servant235.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1234,17 +1006,11 @@
     "avatar": "https://media.fgo.wiki/9/9c/Servant161.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1266,17 +1032,11 @@
     "avatar": "https://media.fgo.wiki/f/fc/Servant226.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1298,17 +1058,11 @@
     "avatar": "https://media.fgo.wiki/8/8a/Servant265.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1330,17 +1084,11 @@
     "avatar": "https://media.fgo.wiki/f/f2/Servant303.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1362,17 +1110,11 @@
     "avatar": "https://media.fgo.wiki/e/e8/Servant238.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1394,17 +1136,11 @@
     "avatar": "https://media.fgo.wiki/6/6e/Servant244.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1426,17 +1162,11 @@
     "avatar": "https://media.fgo.wiki/2/27/Servant003.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.4)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.4)"},
       {
-        "name": "技能 2 (Lv.4)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.4)"},
       {
-        "name": "技能 3 (Lv.4)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.4)"}
     ]
   },
   {
@@ -1458,17 +1188,11 @@
     "avatar": "https://media.fgo.wiki/e/e9/Servant264.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.6)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.6)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -1490,17 +1214,11 @@
     "avatar": "https://media.fgo.wiki/2/24/Servant121.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1522,17 +1240,11 @@
     "avatar": "https://media.fgo.wiki/5/59/Servant005.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1554,17 +1266,11 @@
     "avatar": "https://media.fgo.wiki/9/9c/Servant187.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1586,17 +1292,11 @@
     "avatar": "https://media.fgo.wiki/e/e9/Servant123.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1618,17 +1318,11 @@
     "avatar": "https://media.fgo.wiki/0/0e/Servant165.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1650,17 +1344,11 @@
     "avatar": "https://media.fgo.wiki/c/c7/Servant101.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1682,17 +1370,11 @@
     "avatar": "https://media.fgo.wiki/f/f4/Servant245.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1714,17 +1396,11 @@
     "avatar": "https://media.fgo.wiki/3/36/Servant221.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1746,17 +1422,11 @@
     "avatar": "https://media.fgo.wiki/f/fe/Servant010.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1778,17 +1448,11 @@
     "avatar": "https://media.fgo.wiki/e/e9/Servant004.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1810,17 +1474,11 @@
     "avatar": "https://media.fgo.wiki/7/74/Servant011.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -1842,17 +1500,11 @@
     "avatar": "https://media.fgo.wiki/4/48/Servant197.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1874,17 +1526,11 @@
     "avatar": "https://media.fgo.wiki/a/a1/Servant137.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -1906,17 +1552,11 @@
     "avatar": "https://media.fgo.wiki/f/f1/Servant184.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1938,17 +1578,11 @@
     "avatar": "https://media.fgo.wiki/4/49/Servant269.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -1970,17 +1604,11 @@
     "avatar": "https://media.fgo.wiki/0/08/Servant271.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2002,17 +1630,11 @@
     "avatar": "https://media.fgo.wiki/d/d5/Servant122.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2034,17 +1656,11 @@
     "avatar": "https://media.fgo.wiki/c/c7/Servant014.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2066,17 +1682,11 @@
     "avatar": "https://media.fgo.wiki/6/62/Servant262.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2098,17 +1708,11 @@
     "avatar": "https://media.fgo.wiki/1/1c/Servant102.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2130,17 +1734,11 @@
     "avatar": "https://media.fgo.wiki/6/65/Servant214.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2162,17 +1760,11 @@
     "avatar": "https://media.fgo.wiki/a/a7/Servant252.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2194,17 +1786,11 @@
     "avatar": "https://media.fgo.wiki/1/1a/Servant193.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2226,17 +1812,11 @@
     "avatar": "https://media.fgo.wiki/6/65/Servant181.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2258,17 +1838,11 @@
     "avatar": "https://media.fgo.wiki/6/60/Servant146.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2290,17 +1864,11 @@
     "avatar": "https://media.fgo.wiki/8/81/Servant140.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2322,17 +1890,11 @@
     "avatar": "https://media.fgo.wiki/8/8c/Servant266.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2354,17 +1916,11 @@
     "avatar": "https://media.fgo.wiki/2/20/Servant228.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2386,17 +1942,11 @@
     "avatar": "https://media.fgo.wiki/b/be/Servant217.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2418,17 +1968,11 @@
     "avatar": "https://media.fgo.wiki/8/8f/Servant087.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2450,17 +1994,11 @@
     "avatar": "https://media.fgo.wiki/d/da/Servant018.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2482,17 +2020,11 @@
     "avatar": "https://media.fgo.wiki/7/75/Servant183.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2514,17 +2046,11 @@
     "avatar": "https://media.fgo.wiki/6/6b/Servant115.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2546,17 +2072,11 @@
     "avatar": "https://media.fgo.wiki/d/dc/Servant211.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2578,17 +2098,11 @@
     "avatar": "https://media.fgo.wiki/1/18/Servant073.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2610,17 +2124,11 @@
     "avatar": "https://media.fgo.wiki/6/6d/Servant094.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2642,17 +2150,11 @@
     "avatar": "https://media.fgo.wiki/7/76/Servant066.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2674,17 +2176,11 @@
     "avatar": "https://media.fgo.wiki/4/40/Servant263.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2706,17 +2202,11 @@
     "avatar": "https://media.fgo.wiki/d/db/Servant029.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2738,17 +2228,11 @@
     "avatar": "https://media.fgo.wiki/9/9a/Servant030.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2770,17 +2254,11 @@
     "avatar": "https://media.fgo.wiki/e/e9/Servant315.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2802,17 +2280,11 @@
     "avatar": "https://media.fgo.wiki/4/46/Servant145.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2834,17 +2306,11 @@
     "avatar": "https://media.fgo.wiki/4/4e/Servant225.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2866,17 +2332,11 @@
     "avatar": "https://media.fgo.wiki/a/a0/Servant120.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2898,17 +2358,11 @@
     "avatar": "https://media.fgo.wiki/5/5e/Servant074.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2930,17 +2384,11 @@
     "avatar": "https://media.fgo.wiki/c/c8/Servant111.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2962,17 +2410,11 @@
     "avatar": "https://media.fgo.wiki/c/ca/Servant067.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -2994,17 +2436,11 @@
     "avatar": "https://media.fgo.wiki/d/d0/Servant130.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3026,17 +2462,11 @@
     "avatar": "https://media.fgo.wiki/7/77/Servant192.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3058,17 +2488,11 @@
     "avatar": "https://media.fgo.wiki/f/f8/Servant243.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.6)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.6)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -3090,17 +2514,11 @@
     "avatar": "https://media.fgo.wiki/f/fd/Servant267.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3122,17 +2540,11 @@
     "avatar": "https://media.fgo.wiki/7/75/Servant170.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3154,17 +2566,11 @@
     "avatar": "https://media.fgo.wiki/a/a3/Servant109.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.4)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.4)"},
       {
-        "name": "技能 2 (Lv.4)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.4)"},
       {
-        "name": "技能 3 (Lv.6)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.6)"}
     ]
   },
   {
@@ -3186,17 +2592,11 @@
     "avatar": "https://media.fgo.wiki/8/8f/Servant218.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3218,17 +2618,11 @@
     "avatar": "https://media.fgo.wiki/d/d7/Servant185.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3250,17 +2644,11 @@
     "avatar": "https://media.fgo.wiki/2/29/Servant304.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3282,17 +2670,11 @@
     "avatar": "https://media.fgo.wiki/e/e2/Servant159.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3314,17 +2696,11 @@
     "avatar": "https://media.fgo.wiki/e/e8/Servant046.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3346,17 +2722,11 @@
     "avatar": "https://media.fgo.wiki/7/7f/Servant082.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3378,17 +2748,11 @@
     "avatar": "https://media.fgo.wiki/3/3f/Servant047.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.10)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.10)"},
       {
-        "name": "技能 2 (Lv.8)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.8)"},
       {
-        "name": "技能 3 (Lv.7)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.7)"}
     ]
   },
   {
@@ -3410,17 +2774,11 @@
     "avatar": "https://media.fgo.wiki/f/f7/Servant219.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.6)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.6)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -3442,17 +2800,11 @@
     "avatar": "https://media.fgo.wiki/b/b6/Servant048.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.6)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.6)"},
       {
-        "name": "技能 2 (Lv.6)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.6)"},
       {
-        "name": "技能 3 (Lv.10)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.10)"}
     ]
   },
   {
@@ -3474,17 +2826,11 @@
     "avatar": "https://media.fgo.wiki/5/54/Servant171.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3506,17 +2852,11 @@
     "avatar": "https://media.fgo.wiki/9/98/Servant089.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3538,17 +2878,11 @@
     "avatar": "https://media.fgo.wiki/8/88/Servant116.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3570,17 +2904,11 @@
     "avatar": "https://media.fgo.wiki/f/f0/Servant058.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3602,17 +2930,11 @@
     "avatar": "https://media.fgo.wiki/0/03/Servant202.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3634,17 +2956,11 @@
     "avatar": "https://media.fgo.wiki/e/e0/Servant178.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3666,17 +2982,11 @@
     "avatar": "https://media.fgo.wiki/8/87/Servant242.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3698,17 +3008,11 @@
     "avatar": "https://media.fgo.wiki/5/56/Servant135.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3730,17 +3034,11 @@
     "avatar": "https://media.fgo.wiki/5/54/Servant147.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3762,17 +3060,11 @@
     "avatar": "https://media.fgo.wiki/c/cc/Servant158.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3794,17 +3086,11 @@
     "avatar": "https://media.fgo.wiki/3/3b/Servant166.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3826,17 +3112,11 @@
     "avatar": "https://media.fgo.wiki/c/cb/Servant164.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3858,17 +3138,11 @@
     "avatar": "https://media.fgo.wiki/9/9c/Servant001.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.9)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.9)"},
       {
-        "name": "技能 2 (Lv.9)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.9)"},
       {
-        "name": "技能 3 (Lv.9)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.9)"}
     ]
   },
   {
@@ -3890,17 +3164,11 @@
     "avatar": "https://media.fgo.wiki/4/42/Servant288.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   },
   {
@@ -3922,17 +3190,11 @@
     "avatar": "https://media.fgo.wiki/5/56/Servant253.jpg",
     "skills_detail": [
       {
-        "name": "技能 1 (Lv.1)",
-        "desc": "己方單體 / 全體效果或自充技能"
-      },
+        "name": "技能 1 (Lv.1)"},
       {
-        "name": "技能 2 (Lv.1)",
-        "desc": "色卡性能提升 / 攻擊力提升"
-      },
+        "name": "技能 2 (Lv.1)"},
       {
-        "name": "技能 3 (Lv.1)",
-        "desc": "生存 / 寶具威力提升 / 特攻效果"
-      }
+        "name": "技能 3 (Lv.1)"}
     ]
   }
 ]
